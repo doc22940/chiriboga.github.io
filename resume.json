@@ -1,0 +1,153 @@
+{
+  "basics": {
+    "name": "Richard Chiriboga",
+    "label": "Senior Manager, Web Development",
+    "picture": "",
+    "email": "richardchiriboga@gmail.com",
+    "phone": "(347) 326-4434",
+    "website": "https://richardchiriboga.com",
+    "summary": "Experienced Web developer based in New York City with more than 10 years experience managing multiple projects and priorities concurrently, currently in a global, multi-lingual environment. Specializing in website and app development using languages that include PHP, Mysql, Javascript, AngularJS, jQuery, HTML, CSS and more.  Additionally, demonstrated Hispanic marketing and social media expertise as evidenced through leadership of my award-winning website CorrienteLatina.com. A website dedicated to covering everything from music, movies to travel, food and much more.",
+    "location": {
+      "address": "144-87 41st Ave #402",
+      "postalCode": "11355",
+      "city": "Flushing",
+      "countryCode": "US",
+      "region": "New York"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "iamchiriboga",
+        "url": "https://twitter.com/iamchiriboga"
+      },
+      {
+        "network": "Github",
+        "username": "chiriboga",
+        "url": "https://github.com/chiriboga"
+      },
+      {
+        "network": "linkedin",
+        "username": "linkedin",
+        "url": "https://www.linkedin.com/in/richardchiriboga/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Avon Breast Cancer Crusade",
+      "position": "Senior Manager, Web Development",
+      "website": "https://avonbcc.org",
+      "startDate": "2016",
+      "endDate": "Present",
+      "summary": "Manage IT team and all web properties. These include AvonBcc.org and Avon39.org",
+      "highlights": [
+        "Built our Brand website - AvonBcc.org (Wordpress, Bootstrap, CSS3, jQuery)",
+        "Wrote our \"Check-in Friday\" system which allows staff and volunteers to manage our walkers and crew during physical event weekends.",
+        "Manage Strategic planning and IT/Web Efforts for the brand."
+      ]
+    },
+    {
+      "company": "Avon Products, Inc.",
+      "position": "Manager, Web Technologies",
+      "website": "http://avoncompany.com",
+      "startDate": "2011",
+      "endDate": "2016",
+      "summary": "Worked on several teams that managed both the corporate intranet as well as the corporate website",
+      "highlights": [
+        "Helped build the corporate intranet on our own custom platform. ",
+        "Helped manage and launch new functionality for the corporate website.",
+        "Became an Scrum Master and managed a team of 4 Developers on our Latin America initiative."
+      ]
+    },
+    {
+      "company": "THAT Agency",
+      "position": "Senior Web Developer",
+      "website": "http://thatagency.com",
+      "startDate": "2007",
+      "endDate": "2010",
+      "summary": "Senior Web Developer Worked directly with the president and project manager in all aspects from concept to creation for client websites.",
+      "highlights": [
+        "Developed and/or assisted in all major projects brought into the company.",
+        "Built and maintained a custom content management system for all clients.",
+        "Lead development paths for the business."
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Syracuse University",
+      "area": "Information Technology",
+      "studyType": "",
+      "startDate": "1993",
+      "endDate": "1997",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "2017 Jack Daniel's Neighborhood Flavors Honoree",
+      "date": "2017",
+      "awarder": "Jack Daniels",
+      "summary": "For my work in uplifting the latino community in Queens and around the US."
+    },
+    {
+      "title": "2016 Best Latino & Culture website",
+      "date": "2016",
+      "awarder": "Hispanicize / Telemundo",
+      "summary": "Won the award for Best Latino & Culture website with my CorrienteLatina.com website."
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "",
+      "level": "Proficient",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "jQuery",
+        "PHP"
+      ]
+    },
+    {
+      "name": "",
+      "level": "",
+      "keywords": [
+        "Blackbaud",
+        "MySQL",
+        "WordPress",
+        "Angular JS",
+        "Photoshop"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Intermediate"
+    }
+  ],
+  "interests": [
+    {
+      "name": "",
+      "keywords": [
+        "Music",
+        "Coding"
+      ]
+    },
+    {
+      "name": "",
+      "keywords": [
+        "Movies"
+      ]
+    }
+  ],
+  "references": []
+}
