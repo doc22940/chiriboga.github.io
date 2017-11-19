@@ -2,10 +2,10 @@
   "basics": {
     "name": "Richard Chiriboga",
     "label": "Senior Manager, Web Development",
-    "picture": "",
+    "picture": "chiriboga.jpg",
     "email": "richardchiriboga@gmail.com",
     "phone": "(347) 326-4434",
-    "website": "https://richardchiriboga.com",
+    "website": "http://richardchiriboga.com",
     "summary": "Experienced Web developer based in New York City with more than 20 years experience managing multiple projects and priorities concurrently, currently in a global, multi-lingual environment. Specializing in website and app development using languages that include PHP, Mysql, Javascript, AngularJS, jQuery, HTML, CSS and more.  Additionally, demonstrated Hispanic marketing and social media expertise as evidenced through leadership of my award-winning website CorrienteLatina.com. A website dedicated to covering everything from music, movies to travel, food and much more.",
     "location": {
       "address": "144-87 41st Ave #402",
@@ -37,8 +37,8 @@
       "company": "Avon Breast Cancer Crusade",
       "position": "Senior Manager, Web Development",
       "website": "https://avonbcc.org",
-      "startDate": "2016",
-      "endDate": "Present",
+      "startDate": "November 2016",
+      "endDate": "December 2017",
       "summary": "Manage IT team and all web properties. These include AvonBcc.org and Avon39.org",
       "highlights": [
         "Built our Brand website - AvonBcc.org (Wordpress, Bootstrap, CSS3, jQuery)",
@@ -52,8 +52,8 @@
       "company": "Avon Products, Inc.",
       "position": "Manager, Web Technologies",
       "website": "http://avoncompany.com",
-      "startDate": "2011",
-      "endDate": "2016",
+      "startDate": "June 2011",
+      "endDate": "November 2016",
       "summary": "Worked on several teams that managed both the corporate intranet as well as the corporate website",
       "highlights": [
         "Helped build the corporate intranet on our own custom platform. ",
@@ -65,8 +65,8 @@
       "company": "THAT Agency",
       "position": "Senior Web Developer",
       "website": "http://thatagency.com",
-      "startDate": "2007",
-      "endDate": "2010",
+      "startDate": "July 2007",
+      "endDate": "July 2010",
       "summary": "Senior Web Developer Worked directly with the president and project manager in all aspects from concept to creation for client websites.",
       "highlights": [
         "Developed and/or assisted in all major projects brought into the company.",
@@ -118,7 +118,8 @@
       "name": "",
       "level": "",
       "keywords": [
-        "Blackbaud",
+        "Blackbaud (Luminate CMS)",
+        "Blackbaud (Luminate Online)",
         "MySQL",
         "WordPress",
         "Angular JS",
