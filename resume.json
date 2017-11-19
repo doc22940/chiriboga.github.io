@@ -6,7 +6,7 @@
     "email": "richardchiriboga@gmail.com",
     "phone": "(347) 326-4434",
     "website": "https://richardchiriboga.com",
-    "summary": "Experienced Web developer based in New York City with more than 10 years experience managing multiple projects and priorities concurrently, currently in a global, multi-lingual environment. Specializing in website and app development using languages that include PHP, Mysql, Javascript, AngularJS, jQuery, HTML, CSS and more.  Additionally, demonstrated Hispanic marketing and social media expertise as evidenced through leadership of my award-winning website CorrienteLatina.com. A website dedicated to covering everything from music, movies to travel, food and much more.",
+    "summary": "Experienced Web developer based in New York City with more than 20 years experience managing multiple projects and priorities concurrently, currently in a global, multi-lingual environment. Specializing in website and app development using languages that include PHP, Mysql, Javascript, AngularJS, jQuery, HTML, CSS and more.  Additionally, demonstrated Hispanic marketing and social media expertise as evidenced through leadership of my award-winning website CorrienteLatina.com. A website dedicated to covering everything from music, movies to travel, food and much more.",
     "location": {
       "address": "144-87 41st Ave #402",
       "postalCode": "11355",
@@ -42,8 +42,10 @@
       "summary": "Manage IT team and all web properties. These include AvonBcc.org and Avon39.org",
       "highlights": [
         "Built our Brand website - AvonBcc.org (Wordpress, Bootstrap, CSS3, jQuery)",
-        "Wrote our \"Check-in Friday\" system which allows staff and volunteers to manage our walkers and crew during physical event weekends.",
-        "Manage Strategic planning and IT/Web Efforts for the brand."
+        "Wrote our \"Check-in Friday\" system which allows staff and volunteers to manage our walkers, crew and donations during physical event weekends.",
+        "Manage Strategic planning and IT/Web Efforts for the brand.",
+        "Manage Brand IT relationship with Blackbaud which includes Liminate Online and Luminate CMS",
+        "Managed Brand IT relationship with Classy (DIY Program)"
       ]
     },
     {
