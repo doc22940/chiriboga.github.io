@@ -4,14 +4,28 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/f113990519.css">
     <title>Richard Chiriboga</title>
     <meta name="description" content="Richard Chiriboga is a New York City web developer and award winning digital influencer "/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/f113990519.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Love+Ya+Like+A+Sister" rel="stylesheet">
     <style>
-        body {background-color: #fff;}
-        .jumbotron {background-color: #337ab7;color:#fff;background-image:linear-gradient(120deg, #155799, #337ab7);}
-        section{padding-top:30px;padding-bottom:30px;}
+        body {background-color: #fff;padding-top: 50px;}
+        .navbar {border-radius: 0;margin-bottom:0;}
+        .navbar-default{background-color:#000;border-color:#000;border-top:0;border-left:0;border-right:0;}
+        .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {color: #fff;background-color: #74b1be;}
+        .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{color: #fff;background-color: #74b1be;}
+        .logo {font-weight: normal;font-size: 20px;color: #9feaf9 !important;letter-spacing: 1px;text-transform: uppercase;}
+        .logo img {float: left;margin-right: 10px;margin-top: -3px;}
+        .logo i{font-size: 28px;vertical-align: middle;color: #46c2ca;}
+        .logo span{vertical-align: middle;}
+        .jumbotron {background-color: #2b2e3b;color:#fff;margin-bottom:0;background: url(code-1076536_1920.jpg);background-position: center bottom;background-size: cover;background-repeat: no-repeat;height:250px;}
+        /* background-image:linear-gradient(120deg, #155799, #2b2e3b); */
+        .jumbotron p{color:#9feaf9;font-family: 'Love Ya Like A Sister', cursive;}
+        .jumbotron h1, h1, h2, h3, h4, h5, h6{font-family: 'Comfortaa', cursive;}
+        section{padding-top:50px;padding-bottom:50px;}
+        section.resume{padding-top:20px;padding-bottom:20px;}
+        section.resume p{margin-bottom:0;}
         .lightgray{background-color: #fafbfc !important;}
         .lightgray p{font-size: 14px;}
         .darkgray{background-color: #343a40 !important;}
@@ -23,6 +37,10 @@
         .clear20{height:20px;}
         h2{margin-bottom: 20px;}
         .core-strengths{margin:0;padding:0;}
+        .subtron {border: 1px solid #e0e5e6;background-color: #f6f8f8;}
+        .subtron ul{margin-bottom:0;}
+        .bt{border-top: 1px solid #e0e5e6;}
+        .fa{color:#74b1be;}
         @media only screen and (max-width: 786px){
           .bio {text-align:center;}
           .projects .col-xs-12:nth-child(1n+1),.projects .col-xs-12:nth-child(1n+2){margin-top: 20px;}
@@ -46,15 +64,50 @@
     </script>
 </head>
 
-<body>
-<!-- <a href="https://github.com/chiriboga/" class="github-corner" aria-label="View source on Github"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#337ab7; color:#fff; position: absolute; top: 0; border: 0; left: 0; transform: scale(-1, 1);" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style></a> -->
+<body id="home" data-spy="scroll" data-target=".navbar-fixed-top" data-offset="50">
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand logo" href="#home">
+        <span>Richard Chiriboga</span>
+      </a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#home">Home</a></li>
+        <li class=""><a href="#aboutme">About Me</a></li>
+        <li class=""><a href="#skills">Skills</a></li>
+        <li class=""><a href="#awards">Awards</a></li>
+        <li class=""><a href="#projects">Projects</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</nav>
 <div class="jumbotron">
   <div class="container text-center">
     <h1>Richard Chiriboga</h1>
     <p>Senior Manager Web Development, Father, Husband and overall cool guy</p>
   </div>
 </div>
-<section>
+<section class="subtron resume">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+        <p>View my <a class="btn btn-info btn-lg" href="Richard.Chiriboga.pdf" target="_blank"><strong>resume</strong></a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section id="aboutme">
   <div class="container">
     <div class="row">
       <div class="col-lg-5 col-md-4 col-sm-3 col-xs-12">
@@ -64,37 +117,60 @@
           <h2><i class="fa fa-user-circle-o" aria-hidden="true"></i> Who Am I</h2>
           <p>Driven, collaborative Senior Web Development Manager with 20+ years of experience in directing website development across various organizational facets in global environment, including marketing, content management, corporate intranet / website restructuring, and website augmenting. Accomplished in overseeing multiple web development projects simultaneously.</p>
           <p>Highly adept in building and maintaining IT / vendor business relationships to facilitate project strategizing / execution. Applies unique blend of technical and cross-functional communication mastery to communicate technical information to non-technical users. Offers Hispanic marketing and social media expertise: Created award-winning website CorrienteLatina.com. Fluent in English, with intermediate Spanish fluency.</p>
-          <p>View my <a class="btn btn-info btn-sm" href="Richard.Chiriboga.pdf" target="_blank"><strong>resume</strong></a></p>
-          <h4>Core Strength</h4>
-          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-            <ul class="core-strengths">
-              <li>Web Project Management</li>
-              <li>Web Development</li>
-              <li>Problem Solving</li>
-              <li>Web Marketing</li>
-            </ul>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-            <ul class="core-strengths">
-              <li>Business Relationship Development / Management</li>
-              <li>Strategic Planning</li>
-              <li>Team Leadership</li>
-              <li>Project Management</li>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-            <ul class="core-strengths">
-              <li>Vendor Negotiation</li>
-              <li>Search Engine Optimization</li>
-              <li>Technical Communication</li>
-              <li>Project Multi-Tasking</li>
-            </ul>
-          </div>
       </div>
     </div>
   </div>
 </section>
 
-<section class="lightgray">
+<section class="bt" id="skills">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <h2><i class="fa fa-check-circle" aria-hidden="true"></i> Skills</h2>
+      </div>
+    </div>
+    <div class="row">
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+      <ul class="list-unstyled">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+        <li>jQuery</li>
+        <li>WordPress</li>
+      </ul>
+    </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <ul class="list-unstyled">
+          <li>PHP</li>
+          <li>MySQL</li>
+          <li>Luminate CMS</li>
+          <li>Luminate Online</li>
+          <li>Project Management</li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <ul class="list-unstyled">
+          <li>Web Development</li>
+          <li>Crisis Management</li>
+          <li>Social Media/Marketing</li>
+          <li>Business Relationship Development / Management</li>
+          <li>Strategic Planning</li>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <ul class="list-unstyled">
+          <li>Team Leadership</li>
+          <li>Vendor Negotiation</li>
+          <li>Search Engine Optimization</li>
+          <li>Technical Communication</li>
+          <li>Project Multi-Tasking</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="subtron" id="awards">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -118,7 +194,9 @@
   </div>
 </section>
 
-<section class="projects">
+
+
+<section class="projects" id="projects">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -154,7 +232,7 @@
 </section>
 
 
-<section class="projects">
+<section class="bt">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -182,12 +260,11 @@
 </section>
 
 
-<section class="lightgray">
+<section class="subtron">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
         <ul class="list-inline social">
-            <li><a href="https://www.facebook.com/iamchiriboga" target="_blank" style="font-size:35px"><i class="fa fa-facebook-square"></i></a></li>
             <li><a href="https://twitter.com/iamchiriboga" target="_blank" style="font-size:35px"><i class="fa fa-twitter-square"></i></a></li>
             <li><a href="https://www.linkedin.com/in/richardchiriboga" target="_blank" style="font-size:35px"><i class="fa fa-linkedin-square"></i></a></li>
             <li><a href="https://github.com/chiriboga" target="_blank" style="font-size:35px"><i class="fa fa-github-square"></i></a></li>
@@ -197,5 +274,35 @@
   </div>
 </section>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="jquery.easing.1.3.min.js"></script>
+<script>
+$(document).ready(function(){
+        "use strict";
+        $('.navbar-nav a').bind('click', function(event) {
+            var $anchor = $(this);
+            $('.navbar-nav li').removeClass('active');
+            $anchor.closest('li').addClass('active');
+            $('html, body').stop().animate({
+                scrollTop: $($anchor.attr('href')).offset().top - 0
+            }, 1500, 'easeInOutExpo');
+            if ($(window).width() <= 768) {
+              $('.navbar-collapse').collapse('toggle');
+            }
+            event.preventDefault();
+        });
+        // when you click on the logo
+        $('.navbar-brand').bind('click', function(event) {
+          $('.navbar-nav li').removeClass('active');
+          $('.navbar-nav li:first').addClass('active');
+          var $anchor = $(this);
+          $('html, body').stop().animate({
+              scrollTop: $($anchor.attr('href')).offset().top - 0
+          }, 1500, 'easeInOutExpo');
+          event.preventDefault();
+        });
+    });
+</script>
 </body>
 </html>
