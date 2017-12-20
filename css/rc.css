@@ -4,7 +4,7 @@ body {background-color: #fff;padding-top: 50px;}
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {color: #fff;background-color: #74b1be;}
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{color: #fff;background-color: #74b1be;}
 .logo {font-weight: normal;font-size: 20px;color: #9feaf9 !important;letter-spacing: 1px;text-transform: uppercase;}
-.logo img {float: left;margin-right: 10px;margin-top: -3px;}
+.logo img {float: left;margin-right: 10px;margin-top: -3px;max-height: 30px;}
 .logo i{font-size: 28px;vertical-align: middle;color: #46c2ca;}
 .logo span{vertical-align: middle;}
 .jumbotron {background-color: #2b2e3b;color:#fff;margin-bottom:0;background: url(http://richardchiriboga.com/img/code-1076536_1920.jpg);background-position: center bottom;background-size: cover;background-repeat: no-repeat;height:250px;}
