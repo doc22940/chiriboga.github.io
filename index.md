@@ -1,79 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Richard Chiriboga</title>
-    <meta name="description" content="Richard Chiriboga is a Technical Manager, Wordpress and Front-End Developer based out of New York City. "/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/f113990519.css">
-    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
-    <link rel="stylesheet" href="/css/rc.css">
-    <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="/favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-    <link rel="manifest" href="manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-    <script type="text/javascript">
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-23366208-1']);
-        _gaq.push(['_trackPageview']);
-        (function() {
-            var ga = document.createElement('script');
-            ga.type = 'text/javascript';
-            ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(ga, s);
-        })();
-    </script>
-</head>
-
-<body id="home" data-spy="scroll" data-target=".navbar-fixed-top" data-offset="50">
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand logo" href="#home">
-        <img src="img/rc-box-sm.png" alt="Travel With Purpose" class="img-responsive" /> <span>Richard Chiriboga</span>
-      </a>
-    </div>
-    <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="#home">Home</a></li>
-        <li class=""><a href="#aboutme">About Me</a></li>
-        <li class=""><a href="#skills">Skills</a></li>
-        <li class=""><a href="#awards">Awards</a></li>
-        <li class=""><a href="#projects">Projects</a></li>
-      </ul>
-    </div><!--/.nav-collapse -->
-  </div>
-</nav>
+---
+# You don't need to edit this file, it's empty on purpose.
+# Edit theme's home layout instead if you wanna make some changes
+# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+layout: default
+title: Richard Chiriboga
+description: "Richard Chiriboga is a Technical Manager, Wordpress and Front-End Developer based out of New York City."
+---
 <div class="jumbotron">
-  <div id='stars'></div>
-  <div id='stars2'></div>
-  <div id='stars3'></div>
   <div class="container text-center">
     <h1>Richard Chiriboga</h1>
-    <p>Technical Manager, WordPress & Front-end Developer</p>
+    <p>Technical Manager, WordPress &amp; Front-end Developer</p>
   </div>
 </div>
 <section class="subtron resume">
@@ -85,9 +21,6 @@
     </div>
   </div>
 </section>
-
-
-
 <section id="aboutme">
   <div class="container">
     <div class="row">
@@ -102,6 +35,7 @@
   </div>
 </section>
 
+
 <section class="bt" id="skills">
   <div class="container">
     <div class="row">
@@ -110,16 +44,16 @@
       </div>
     </div>
     <div class="row">
-    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-      <ul class="list-unstyled">
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Javascript</li>
-        <li>jQuery</li>
-        <li>WordPress</li>
-      </ul>
-    </div>
-      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+      <div class="col-lg-3 col-md-3 col-lg-3 col-xs-6">
+        <ul class="list-unstyled">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Javascript</li>
+          <li>jQuery</li>
+          <li>WordPress</li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-3 col-lg-3 col-xs-6">
         <ul class="list-unstyled">
           <li>PHP</li>
           <li>MySQL</li>
@@ -128,15 +62,16 @@
           <li>Project Management</li>
         </ul>
       </div>
-      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+      <div class="col-lg-3 col-md-3 col-lg-3 col-xs-6">
         <ul class="list-unstyled">
           <li>Web Development</li>
           <li>Crisis Management</li>
           <li>Social Media/Marketing</li>
           <li>Business Relationship Development / Management</li>
           <li>Strategic Planning</li>
+        </ul>
       </div>
-      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+      <div class="col-lg-3 col-md-3 col-lg-3 col-xs-6">
         <ul class="list-unstyled">
           <li>Team Leadership</li>
           <li>Vendor Negotiation</li>
@@ -148,7 +83,6 @@
     </div>
   </div>
 </section>
-
 
 <section class="subtron" id="awards">
   <div class="container">
@@ -227,7 +161,6 @@
         <a href="https://github.com/chiriboga/company-email-signature"><h4>Company Email Signature</h4></a>
         <p>Used by a few major corporations. This system was built using Twitter Bootstrap and AngularJS. Hs multi-lingual capabilities and much more.</p>
       </div>
-
       <div class="visible-xs clear20"></div>
       <div class="col-lg-1 col-md-1 col-sm-1 col-xs-12 text-center">
         <i class="fa fa-wordpress fa-6" aria-hidden="true"></i>
@@ -236,7 +169,6 @@
         <a href="https://github.com/chiriboga/top-participants"><h4>Luminate Top Participants Plugin</h4></a>
         <p>A premium Wordpress Plugin for showing top participants, teams and groups from the Luminate API.</p>
       </div>
-
       <div class="visible-xs clear20"></div>
       <div class="col-lg-1 col-md-1 col-sm-1 col-xs-12 text-center">
         <i class="fa fa-github fa-6" aria-hidden="true"></i>
@@ -245,56 +177,6 @@
         <a href="https://github.com/chiriboga/classy-org-api-v2"><h4>Classy.org API connection and use</h4></a>
         <p>After trying to find information from classy's documentation and searching the web, I was able to compile real world examples that I am hoping others can use for their projects</p>
       </div>
-
-
     </div>
   </div>
 </section>
-
-
-<section class="subtron">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-        <ul class="list-inline social">
-            <li><a href="https://twitter.com/iamchiriboga" target="_blank" style="font-size:35px"><i class="fa fa-twitter-square"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/richardchiriboga" target="_blank" style="font-size:35px"><i class="fa fa-linkedin-square"></i></a></li>
-            <li><a href="https://github.com/chiriboga" target="_blank" style="font-size:35px"><i class="fa fa-github-square"></i></a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</section>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="js/jquery.easing.1.3.min.js"></script>
-<script>
-$(document).ready(function(){
-        "use strict";
-        $('.navbar-nav a').bind('click', function(event) {
-            var $anchor = $(this);
-            $('.navbar-nav li').removeClass('active');
-            $anchor.closest('li').addClass('active');
-            $('html, body').stop().animate({
-                scrollTop: $($anchor.attr('href')).offset().top - 0
-            }, 1500, 'easeInOutExpo');
-            if ($(window).width() <= 768) {
-              $('.navbar-collapse').collapse('toggle');
-            }
-            event.preventDefault();
-        });
-        // when you click on the logo
-        $('.navbar-brand').bind('click', function(event) {
-          $('.navbar-nav li').removeClass('active');
-          $('.navbar-nav li:first').addClass('active');
-          var $anchor = $(this);
-          $('html, body').stop().animate({
-              scrollTop: $($anchor.attr('href')).offset().top - 0
-          }, 1500, 'easeInOutExpo');
-          event.preventDefault();
-        });
-    });
-</script>
-</body>
-</html>
