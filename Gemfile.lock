@@ -259,6 +259,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-feed (~> 0.6)
+  jekyll-paginate
   jekyll-sitemap
   jekyll-youtube
   minima (~> 2.0)
