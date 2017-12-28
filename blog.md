@@ -6,7 +6,7 @@ layout: default
 title: Blog | Richard Chiriboga
 description: "My blog about Web Development, Marketing and personal musings."
 ---
-<section id="aboutme">
+<section id="blog">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
