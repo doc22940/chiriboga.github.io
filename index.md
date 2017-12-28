@@ -9,7 +9,7 @@ description: "Richard Chiriboga is a Technical Manager, Wordpress and Front-End 
 <div class="jumbotron">
   <div class="container text-center">
     <h1>Richard Chiriboga</h1>
-    <p>Technical Manager, WordPress &amp; Front-end Developer</p>
+    <p>CSM | Technical Manager | Senior Manager, Web Development</p>
   </div>
 </div>
 <section class="subtron resume">
