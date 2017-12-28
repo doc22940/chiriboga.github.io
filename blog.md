@@ -7,22 +7,14 @@ title: Blog | Richard Chiriboga
 description: "My blog about Web Development, Marketing and personal musings."
 comments: true
 ---
-<section id="blog">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
-        <div class="posts">
-          {% for post in site.posts %}
-            <article class="post">
-              <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-              <div class="entry">
-                {{ post.excerpt }}
-              </div>
-              <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-            </article>
-          {% endfor %}
-        </div>
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <div class="entry">
+        {{ post.excerpt }}
       </div>
-    </div>
-  </div>
-</section>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+</div>
