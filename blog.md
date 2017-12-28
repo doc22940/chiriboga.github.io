@@ -5,6 +5,7 @@
 layout: default
 title: Blog | Richard Chiriboga
 description: "My blog about Web Development, Marketing and personal musings."
+comments: true
 ---
 <section id="blog">
   <div class="container">
