@@ -28,7 +28,7 @@ description: "Richard Chiriboga is a Technical Manager, Wordpress and Front-End 
         <img class="img-responsive img-circle circle-block" src="img/chiriboga.jpg" alt="Richard Chiriboga">
       </div>
       <div class="col-lg-7 col-md-8 col-sm-9 col-xs-12 bio">
-          <h2><i class="fa fa-user-circle-o" aria-hidden="true"></i> Who Am I</h2>
+          <h2>About Me</h2>
           <p>Driven and collaborative Technical Manager with more than 20-years of experience in web development and management, across non-profit, boutique agency and global company environments. Expertise in leading website restructuring and development projects, corporate intranet builds, and content management plans through their complete life cycle – from ideation to launch. Known for being a trusted partner across multiple vendors, functions and disciplines, and having the ability to communicate complex information to both technical and non-technical users. Offers Hispanic marketing and social media expertise: Created award-winning website CorrienteLatina.com. Fluent in English, with intermediate Spanish fluency.</p>
       </div>
     </div>
@@ -40,7 +40,7 @@ description: "Richard Chiriboga is a Technical Manager, Wordpress and Front-End 
   <div class="container">
     <div class="row">
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <h2><i class="fa fa-check-circle" aria-hidden="true"></i> Skills</h2>
+        <h2>Skills</h2>
       </div>
     </div>
     <div class="row">
@@ -88,7 +88,7 @@ description: "Richard Chiriboga is a Technical Manager, Wordpress and Front-End 
   <div class="container">
     <div class="row">
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <h2><i class="fa fa-trophy" aria-hidden="true"></i> Awards</h2>
+        <h2>Awards</h2>
       </div>
     </div>
     <div class="row">
@@ -114,7 +114,7 @@ description: "Richard Chiriboga is a Technical Manager, Wordpress and Front-End 
   <div class="container">
     <div class="row">
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <h2><i class="fa fa-tasks" aria-hidden="true"></i> Web Projects</h2>
+        <h2>Web Projects</h2>
       </div>
     </div>
     <div class="row">
