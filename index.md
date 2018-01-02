@@ -144,13 +144,13 @@ description: "Richard Chiriboga is a Technical Manager, Wordpress and Front-End 
     </div>
     <div class="row">
       <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 text-center center-block">
-        <img class="img-responsive" src="img/wutangclan-net.jpg" alt="WuTangClan.net">
+        <img class="img-responsive" src="img/wutangclan-net.png" alt="WuTangClan.net">
         <a href="https://wutanagclan.net"><h4>WutangClan.net</h4></a>
         <p>I built a 100% Fully custom WordPress theme built specifically for the WuTang Clan featuring all custom wordpress plugins.</p>
       </div>
       <div class="visible-xs clear20"></div>
       <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 text-center center-block">
-        <img class="img-responsive" src="img/wutanglatino-com.jpg" alt="AVON39.org">
+        <img class="img-responsive" src="img/wutanglatino-com.png" alt="AVON39.org">
         <a href="http://WuTangLatino.com"><h4>WuTangLatino.com</h4></a>
         <p>I built 100% Custom WordPress theme for the Latino arm of the WuTang Clan.</p>
       </div>
