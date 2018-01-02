@@ -121,25 +121,38 @@ description: "Richard Chiriboga is a Technical Manager, Wordpress and Front-End 
       <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 text-center center-block">
         <img class="img-responsive" src="img/avonbcc.jpg" alt="Avon Breast Cancer Crusade">
         <a href="https://avonbcc.org"><h4>AvonBcc.Org</h4></a>
-        <p>100% Fully custom Wordpress theme built specifically for the Avon Breast Cancer Crusade featuring custom post types, custom fields and slick admin capabilities.</p>
+        <p>Project Managed and built the 100% custom WordPress theme. Featuring custom post types, custom fields and slick admin capabilities.</p>
       </div>
       <div class="visible-xs clear20"></div>
       <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 text-center center-block">
         <img class="img-responsive" src="img/avon39.jpg" alt="AVON39.org">
         <a href="http://avon39.org"><h4>AVON39.org</h4></a>
-        <p>100% Custom Wordpress theme built for the Avon Breast Cancer Crusade flagship Program. Custom HTML/CSS/Jquery/ Luminate API. This project never launched.</p>
+        <p>Project Managed and built the 100% custom WordPress theme. Featuring custom post types, custom fields, custom plugins. Site will not launch.</p>
       </div>
       <div class="visible-xs clear20"></div>
       <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 text-center center-block">
         <img class="img-responsive" src="img/corrientelatina.jpg" alt="Corrientelatina.com">
         <a href="https://corrientelatina.com"><h4>Corrientelatina.com</h4></a>
-        <p>My personal Blog where I work with Record Labels, Movie houses and marketing firms to bring US eyes to many products and services including advanced movie screenings, interviews and much more.</p>
+        <p>My personal website where I work with Record Labels, Movie houses and marketing firms to bring U.S. eyes to many products and services including advanced movie screenings, interviews and much more.</p>
       </div>
       <div class="visible-xs clear20"></div>
       <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 text-center center-block">
         <img class="img-responsive" src="img/wutangclan.jpg" alt="WutangClan.com">
         <a href="http://wutangclan.com"><h4>Wutangclan.com</h4></a>
-        <p>Built on top of a wordpress theme for one itteration of the world-famous Wutang Clan.</p>
+        <p>Built on top of a WordPress theme for one itteration of the world-famous Wutang Clan.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 text-center center-block">
+        <img class="img-responsive" src="img/wutangclan-net.jpg" alt="WuTangClan.net">
+        <a href="https://wutanagclan.net"><h4>WutangClan.net</h4></a>
+        <p>I built a 100% Fully custom WordPress theme built specifically for the WuTang Clan featuring all custom wordpress plugins.</p>
+      </div>
+      <div class="visible-xs clear20"></div>
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 text-center center-block">
+        <img class="img-responsive" src="img/wutanglatino-com.jpg" alt="AVON39.org">
+        <a href="http://WuTangLatino.com"><h4>WuTangLatino.com</h4></a>
+        <p>I built 100% Custom WordPress theme for the Latino arm of the WuTang Clan.</p>
       </div>
     </div>
   </div>
@@ -154,28 +167,35 @@ description: "Richard Chiriboga is a Technical Manager, Wordpress and Front-End 
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-1 col-md-1 col-sm-1 col-xs-12 text-center">
-        <i class="fa fa-envelope fa-6" aria-hidden="true"></i>
+      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+        <div class="media">
+          <div class="media-left">
+            <a href="https://github.com/chiriboga/company-email-signature"><i class="fa fa-envelope fa-6" aria-hidden="true"></i></a>
+          </div>
+          <div class="media-body">
+            <a href="https://github.com/chiriboga/company-email-signature"><strong>Company Email Signature</strong></a><br/>Used by a few major corporations. This system was built using Twitter Bootstrap and AngularJS. Hs multi-lingual capabilities and much more.
+          </div>
+        </div>
       </div>
-      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-        <a href="https://github.com/chiriboga/company-email-signature"><h4>Company Email Signature</h4></a>
-        <p>Used by a few major corporations. This system was built using Twitter Bootstrap and AngularJS. Hs multi-lingual capabilities and much more.</p>
+      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+        <div class="media">
+          <div class="media-left">
+            <a href="https://github.com/chiriboga/top-participants"><i class="fa fa-wordpress fa-6" aria-hidden="true"></i></a>
+          </div>
+          <div class="media-body">
+            <a href="https://github.com/chiriboga/top-participants"><strong>Luminate Top-Participants Plugin</strong></a><br/>A premium Wordpress Plugin for showing top participants, teams and groups from the Luminate API.
+          </div>
+        </div>
       </div>
-      <div class="visible-xs clear20"></div>
-      <div class="col-lg-1 col-md-1 col-sm-1 col-xs-12 text-center">
-        <i class="fa fa-wordpress fa-6" aria-hidden="true"></i>
-      </div>
-      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-        <a href="https://github.com/chiriboga/top-participants"><h4>Luminate Top Participants Plugin</h4></a>
-        <p>A premium Wordpress Plugin for showing top participants, teams and groups from the Luminate API.</p>
-      </div>
-      <div class="visible-xs clear20"></div>
-      <div class="col-lg-1 col-md-1 col-sm-1 col-xs-12 text-center">
-        <i class="fa fa-github fa-6" aria-hidden="true"></i>
-      </div>
-      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-        <a href="https://github.com/chiriboga/classy-org-api-v2"><h4>Classy.org API connection and use</h4></a>
-        <p>After trying to find information from classy's documentation and searching the web, I was able to compile real world examples that I am hoping others can use for their projects</p>
+      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+        <div class="media">
+          <div class="media-left">
+            <a href="https://github.com/chiriboga/classy-org-api-v2"><i class="fa fa-github fa-6" aria-hidden="true"></i></a>
+          </div>
+          <div class="media-body">
+            <a href="https://github.com/chiriboga/classy-org-api-v2"><strong>Classy.org API connection and use</strong></a><br/>After trying to find information from classy's documentation and searching the web, I was able to compile real world examples that I am hoping others can use for their projects
+          </div>
+        </div>
       </div>
     </div>
   </div>
