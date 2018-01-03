@@ -29,7 +29,7 @@ description: "Richard Chiriboga is a Technical Manager, Wordpress and Front-End 
       </div>
       <div class="col-lg-7 col-md-8 col-sm-9 col-xs-12 bio">
           <h2>About Me</h2>
-          <p>Driven and collaborative Technical Manager with more than 20-years of experience in web development and management, across non-profit, boutique agency and global company environments. Expertise in leading website restructuring and development projects, corporate intranet builds, and content management plans through their complete life cycle – from ideation to launch. Known for being a trusted partner across multiple vendors, functions and disciplines, and having the ability to communicate complex information to both technical and non-technical users. Offers Hispanic marketing and social media expertise: Created award-winning website CorrienteLatina.com. Fluent in English, with intermediate Spanish fluency.</p>
+          <p>Driven and collaborative Technical Manager with extensive experience in web development and management, across non-profit, boutique agency and global company environments. Expertise in leading website restructuring and development projects, corporate intranet builds, and content management plans through their complete life cycle – from ideation to launch. Known for being a trusted partner across multiple vendors, functions and disciplines, and having the ability to communicate complex information to both technical and non-technical users. Offers Hispanic marketing and social media expertise: Created award-winning website CorrienteLatina.com. Fluent in English, with intermediate Spanish fluency.</p>
       </div>
     </div>
   </div>
