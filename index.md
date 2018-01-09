@@ -16,7 +16,7 @@ description: "Richard Chiriboga is a Technical Manager, Wordpress and Front-End 
   <div class="container">
     <div class="row">
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-        <p>View my <a class="btn btn-info btn-lg" href="/resume/Richard.Chiriboga.pdf" target="_blank"><strong>resume</strong></a></p>
+        <p>View my <a class="btn btn-info btn-lg" href="/resume/Richard.Chiriboga.Resume.pdf" target="_blank"><strong>resume</strong></a></p>
       </div>
     </div>
   </div>
