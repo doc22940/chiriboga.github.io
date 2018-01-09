@@ -25,7 +25,7 @@ description: "Richard Chiriboga is a Technical Manager, Wordpress and Front-End 
   <div class="container">
     <div class="row">
       <div class="col-lg-5 col-md-4 col-sm-3 col-xs-12">
-        <img class="img-responsive img-circle circle-block" src="img/chiriboga.jpg" alt="Richard Chiriboga">
+        <img class="img-responsive img-circle circle-block" src="img/richard-chiriboga-250.jpg" alt="Richard Chiriboga">
       </div>
       <div class="col-lg-7 col-md-8 col-sm-9 col-xs-12 bio">
           <h2>About Me</h2>
