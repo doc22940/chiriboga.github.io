@@ -35,6 +35,7 @@ exclude:
   - Gemfile.lock
   - README.md
   - node_modules
+  - vendor/
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/
