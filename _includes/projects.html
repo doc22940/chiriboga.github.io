@@ -1,0 +1,13 @@
+{% assign rows = site.data.projects.size | divided_by: 2.0 | ceil %}
+{% for i in (1..rows) %}
+  {% assign offset = forloop.index0 | times: 2 %}
+  <div class="row">
+    {% for project in site.data.projects limit:2 offset:offset %}
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center center-block">
+        <a href="{{project.url}}" target="_blank"><img class="img-responsive img-rounded" src="img/{{project.img}}" alt="{{project.title}}"></a>
+        <a href="{{project.url}}" target="_blank"><h4>{{project.title}}</h4></a>
+        <p>{{project.description}}</p>
+      </div>
+    {% endfor %}
+  </div>
+{% endfor %}

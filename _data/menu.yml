@@ -1,0 +1,14 @@
+# Links to include in menu navigation
+# For external links add external: true
+  - title: About Me
+    url: /about-me/
+    id: about-me
+  - title: Projects
+    url: /projects/
+    id: projects
+  - title: My Work
+    url: /my-work/
+    id: my-work
+  - title: Blog
+    url: /blog/
+    id: blog

@@ -8,15 +8,18 @@ description: "Richard Chiriboga is a Technical Manager, Wordpress and Front-End 
 ---
 <div class="jumbotron">
   <div class="container text-center">
-    <h1>Richard Chiriboga</h1>
-    <p>CSM | Technical Manager | Senior Manager, Web Development</p>
+    <h1>Hi, my name is Rich and I am a <span>Technical Project Manager</span> &amp; <span>Front-End Developer</span> living in New York City.</h1>
   </div>
 </div>
+
+
+
+
 <section class="subtron resume">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-        <p>View my <a class="btn btn-info btn-lg" href="/resume/Richard.Chiriboga.Resume.pdf" target="_blank"><strong>resume</strong></a></p>
+        <p><a class="btn btn-info btn-lg btn-rc" href="/resume/Richard.Chiriboga.Resume.pdf" target="_blank"><strong>View my resume</strong></a></p>
       </div>
     </div>
   </div>
@@ -84,6 +87,9 @@ description: "Richard Chiriboga is a Technical Manager, Wordpress and Front-End 
   </div>
 </section>
 
+
+
+
 <section class="subtron" id="awards">
   <div class="container">
     <div class="row">
@@ -91,22 +97,13 @@ description: "Richard Chiriboga is a Technical Manager, Wordpress and Front-End 
         <h2>Awards</h2>
       </div>
     </div>
-    <div class="row">
-      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-        <p><strong>2017 Jack Daniel's Neighborhood Flavors Honoree</strong> for "Movers &amp; Shakers to help the Hispanic Community in Queens, NY.</p>
-      </div>
-      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-        <p><strong>2016 Tecla Award for Best Latino News and Culture website</strong> at Hispanicize and sponsored by Telemundo.</p>
-      </div>
-      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-        <p><strong>2015 All-Star Mixtape Award</strong> Winner - Best Latin Music Website</p>
-      </div>
-      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-        <p><strong>4 Time Nominee</strong> for Best Latin Music Website at the Latin Mixx Awards</p>
-      </div>
-    </div>
+    {% include awards.html %}
   </div>
 </section>
+
+
+
+
 
 
 
@@ -117,46 +114,11 @@ description: "Richard Chiriboga is a Technical Manager, Wordpress and Front-End 
         <h2>Web Projects</h2>
       </div>
     </div>
-    <div class="row">
-      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 text-center center-block">
-        <img class="img-responsive" src="img/avonbcc.jpg" alt="Avon Breast Cancer Crusade">
-        <a href="https://avonbcc.org"><h4>AvonBcc.Org</h4></a>
-        <p>Project Managed and built the 100% custom WordPress theme. Featuring custom post types, custom fields and slick admin capabilities.</p>
-      </div>
-      <div class="visible-xs clear20"></div>
-      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 text-center center-block">
-        <img class="img-responsive" src="img/avon39.jpg" alt="AVON39.org">
-        <a href="http://avon39.org"><h4>AVON39.org</h4></a>
-        <p>Project Managed and built the 100% custom WordPress theme. Featuring custom post types, custom fields, custom plugins. Site will not launch.</p>
-      </div>
-      <div class="visible-xs clear20"></div>
-      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 text-center center-block">
-        <img class="img-responsive" src="img/corrientelatina.jpg" alt="Corrientelatina.com">
-        <a href="https://corrientelatina.com"><h4>Corrientelatina.com</h4></a>
-        <p>My personal website where I work with Record Labels, Movie houses and marketing firms to bring U.S. eyes to many products and services including advanced movie screenings, interviews and much more.</p>
-      </div>
-      <div class="visible-xs clear20"></div>
-      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 text-center center-block">
-        <img class="img-responsive" src="img/wutangclan.jpg" alt="WutangClan.com">
-        <a href="http://wutangclan.com"><h4>Wutangclan.com</h4></a>
-        <p>Built on top of a WordPress theme for one itteration of the world-famous Wutang Clan.</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 text-center center-block">
-        <img class="img-responsive" src="img/wutangclan-net.png" alt="WuTangClan.net">
-        <a href="https://wutanagclan.net"><h4>WutangClan.net</h4></a>
-        <p>I built a 100% Fully custom WordPress theme built specifically for the WuTang Clan featuring all custom wordpress plugins.</p>
-      </div>
-      <div class="visible-xs clear20"></div>
-      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 text-center center-block">
-        <img class="img-responsive" src="img/wutanglatino-com.png" alt="AVON39.org">
-        <a href="http://WuTangLatino.com"><h4>WuTangLatino.com</h4></a>
-        <p>I built 100% Custom WordPress theme for the Latino arm of the WuTang Clan.</p>
-      </div>
-    </div>
+    {% include projects.html %}
   </div>
 </section>
+
+
 
 
 <section class="bt">
@@ -200,3 +162,41 @@ description: "Richard Chiriboga is a Technical Manager, Wordpress and Front-End 
     </div>
   </div>
 </section>
+
+
+
+<section class="subtron" id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2 col-sm-12">
+        <h1>Want to hire me?</h1>
+        <p>Fill out the form and I will contact you as soon as I can.</p>
+        <form method="POST" action="http://formspree.io/richardchiriboga@gmail.com">
+          <input type="hidden" name="_subject" value="Website Contact Form"> 
+          <input name="_gotcha" style="display:none">
+          <div class="form-group"> 
+            <label for="FullName">Full name</label>
+            <input class="form-control" id="FullName" name="fullname" placeholder="Full Name" required="">
+          </div>
+          <div class="form-group"> 
+            <label for="email">Email address</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Full Name" required="">
+          </div>
+          <div class="form-group">
+            <label for="email">Your Message</label>
+            <textarea class="form-control" name="message" placeholder="Your message" required=""></textarea>
+          </div>
+          <button type="submit" class="btn btn-rc">Send</button>
+        </form>
+      </div>
+    </div>
+  </div> 
+</section>
+
+
+
+
+
+
+
+
