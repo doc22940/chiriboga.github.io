@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% include head.html %} {% include javascript.html %}
+</head>
+
+<body id="home" data-spy="scroll" data-target=".navbar-fixed-top" data-offset="50">
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-23366208-1']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+    <!-- [begin] header -->
+    {% include header.html %}
+    <!-- [end] header -->
+    <!-- [begin] content -->
+    <section id="blog">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
+            <img src="/img/{{ page.img }}" class="img-responsive img-rounded" alt="{{ page.title }}" />
+            <a href="{{ page.link }}" target="_blank"><h1>{{ page.title }}</h1></a>
+            <p>{{ page.description }}</p>
+            <h3>Technology Used</h3>
+            <p>{{ post.url}}</p>
+            <ul>
+            {% for item in page.used %}
+                <li>{{ item }}</li>
+            {% endfor %}
+            </ul>
+
+            {% capture the_collection %}{{page.collection}}{% endcapture %}
+              {% if page.collection %}
+                {% assign  document = site[the_collection]  %}
+              {% endif %}
+                <hr />
+            {% for links in document  %}
+              {% if links.title == page.title %}
+                {% unless forloop.first %}
+                  {% assign prevurl = prev.url %}
+                {% endunless %}
+                {% unless forloop.last %}
+                  {% assign next = document[forloop.index] %}
+                  {% assign nexturl = next.url %}
+                {% endunless %}
+              {% endif %}
+              {% assign prev = links %}
+            {% endfor %}
+
+            <script>
+            document.body.onkeyup = function(e){
+            if (e.keyCode == '37') { window.location = '{{prevurl}}'; }
+            if (e.keyCode == '39') { window.location = '{{nexturl}}'; }
+            };
+            </script>
+
+            <nav aria-label="...">
+              <ul class="pager">
+                {% if prevurl %}
+                    <li class="previous"><a href="{{prevurl}}"><span aria-hidden="true">&larr;</span> Previous</a></li>
+                {% endif %}
+                {% if nexturl %}
+                    <li class="next"><a href="{{nexturl}}">Next <span aria-hidden="true">&rarr;</span></a></li>
+                {% endif %}
+              </ul>
+            </nav>
+
+
+
+
+
+
+
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- [end] content -->
+    <!-- [begin] footer -->
+    {% include footer.html %}
+    <!-- [end] footer -->
+</body>
+
+</html>

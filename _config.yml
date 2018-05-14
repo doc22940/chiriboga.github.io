@@ -44,3 +44,14 @@ exclude:
 sass:
   sass_dir: _sass
   style: compressed
+
+
+
+# Collections
+collections:
+  blog:
+    output: true
+    permalink: /blog/:slug/
+  projects:
+    output: true
+    permalink: /projects/:slug/

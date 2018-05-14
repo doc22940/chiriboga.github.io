@@ -28,7 +28,7 @@ description: "Richard Chiriboga is a Technical Manager, Wordpress and Front-End 
   <div class="container">
     <div class="row">
       <div class="col-lg-5 col-md-4 col-sm-3 col-xs-12">
-        <img class="img-responsive img-circle circle-block" src="img/richard-chiriboga-250.jpg" alt="Richard Chiriboga">
+        <img class="img-responsive img-circle center-block" src="img/richard-chiriboga-250.jpg" alt="Richard Chiriboga">
       </div>
       <div class="col-lg-7 col-md-8 col-sm-9 col-xs-12 bio">
           <h2>About Me</h2>
@@ -39,85 +39,7 @@ description: "Richard Chiriboga is a Technical Manager, Wordpress and Front-End 
 </section>
 
 
-<section class="bt" id="skills">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <h2>Skills</h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-3 col-md-3 col-lg-3 col-xs-6">
-        <ul class="list-unstyled">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Javascript</li>
-          <li>jQuery</li>
-          <li>WordPress</li>
-        </ul>
-      </div>
-      <div class="col-lg-3 col-md-3 col-lg-3 col-xs-6">
-        <ul class="list-unstyled">
-          <li>PHP</li>
-          <li>MySQL</li>
-          <li>Luminate CMS</li>
-          <li>Luminate Online</li>
-          <li>Project Management</li>
-        </ul>
-      </div>
-      <div class="col-lg-3 col-md-3 col-lg-3 col-xs-6">
-        <ul class="list-unstyled">
-          <li>Web Development</li>
-          <li>Crisis Management</li>
-          <li>Social Media/Marketing</li>
-          <li>Business Relationship Development / Management</li>
-          <li>Strategic Planning</li>
-        </ul>
-      </div>
-      <div class="col-lg-3 col-md-3 col-lg-3 col-xs-6">
-        <ul class="list-unstyled">
-          <li>Team Leadership</li>
-          <li>Vendor Negotiation</li>
-          <li>Search Engine Optimization</li>
-          <li>Technical Communication</li>
-          <li>Project Multi-Tasking</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-
-
-<section class="subtron" id="awards">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <h2>Awards</h2>
-      </div>
-    </div>
-    {% include awards.html %}
-  </div>
-</section>
-
-
-
-
-
-
-
-<section class="projects" id="projects">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <h2>Web Projects</h2>
-      </div>
-    </div>
-    {% include projects.html %}
-  </div>
-</section>
-
+{% include case-study-featured.html %}
 
 
 
@@ -165,38 +87,4 @@ description: "Richard Chiriboga is a Technical Manager, Wordpress and Front-End 
 
 
 
-<section class="subtron" id="contact">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8 col-md-offset-2 col-sm-12">
-        <h1>Want to hire me?</h1>
-        <p>Fill out the form and I will contact you as soon as I can.</p>
-        <form method="POST" action="http://formspree.io/richardchiriboga@gmail.com">
-          <input type="hidden" name="_subject" value="Website Contact Form"> 
-          <input name="_gotcha" style="display:none">
-          <div class="form-group"> 
-            <label for="FullName">Full name</label>
-            <input class="form-control" id="FullName" name="fullname" placeholder="Full Name" required="">
-          </div>
-          <div class="form-group"> 
-            <label for="email">Email address</label>
-            <input type="email" class="form-control" id="email" name="email" placeholder="Full Name" required="">
-          </div>
-          <div class="form-group">
-            <label for="email">Your Message</label>
-            <textarea class="form-control" name="message" placeholder="Your message" required=""></textarea>
-          </div>
-          <button type="submit" class="btn btn-rc">Send</button>
-        </form>
-      </div>
-    </div>
-  </div> 
-</section>
-
-
-
-
-
-
-
-
+{% include contactform.html %}

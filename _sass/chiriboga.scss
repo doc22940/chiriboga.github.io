@@ -7,9 +7,23 @@ $primary-text-color:   #212121;
 $secondary-text-color: #757575;
 $divider-color:        #BDBDBD;
 
+$blue: #337ab7;
+
 $main-color: #ec008c;
 
 $header-font: 'Muli', sans-serif;
+
+$stackoverflow: #f48024;
+$twitter: #1da1f2;
+$linkedin: #007bb5;
+$github: #4078c0;
+
+@mixin social_links {
+    font-size: 20px;
+    padding: 8px 16px;
+    border-radius: 10px;
+    color: #fff;
+}
 
 
 body {
@@ -34,13 +48,18 @@ body {
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
     color: #fff;
-    background-color: #337ab7;
+    background-color: $blue;
+}
+
+.navbar-default .navbar-nav>li>a {
+    text-transform: uppercase;
+    color: #eee;
 }
 
 .navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-nav>li>a:hover {
     color: #fff;
-    background-color: #337ab7;
+    background-color: $blue;
 }
 
 .logo {
@@ -184,6 +203,11 @@ h2 {
     border: 1px solid #e0e5e6;
     background-color: #f6f8f8;
 
+    &.white{
+        background-color: #fff;
+        border: none;
+    }
+
     ul {
         margin-bottom: 0;
     }
@@ -193,13 +217,23 @@ h2 {
 
 .bt {
     border-top: 1px solid #e0e5e6;
+
+    .fa {
+        color: #333;
+    }
 }
 
 .fa {
-    color: #333;
+    color: #fff;
 }
 
 
+#aboutme {
+    img {
+        max-width: 250px;
+        height: auto;
+    }
+}
 
 
 
@@ -250,7 +284,7 @@ h2 {
         opacity: 1;
         transform: rotate(-90deg);
         transition: transform .4s ease-in-out;
-        background-color: #337ab7;
+        background-color: $blue;
         border-color: #fff; 
 
         .logo-text {
@@ -270,12 +304,12 @@ h2 {
 
 .btn-rc {
     color: #fff;
-    background-color: #337ab7;
-    border-color: #337ab7;
+    background-color: $blue;
+    border-color: $blue;
 
     &:hover, &:active {
-        background-color: #337ab7;
-        border-color: #337ab7;
+        background-color: $blue;
+        border-color: $blue;
     }
 }
 
@@ -309,9 +343,72 @@ h2 {
     .btn-rc{
         display: block;
     }
+
+    
 }
 
 @media screen and (min-width: 768px) {
+
+}
+
+
+.case-study {
+    font-size: 20px;
+
+    h2 {
+        margin-top: 0;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    &.orange {
+        background-color: orange;
+        color: #fff;
+    }
+
+    &.blue{
+        background-color: $blue;
+        color: #fff;
+    }
+}
+
+
+
+
+
+
+.social a{
+
+    &.twitter {
+        background:$twitter;
+        @include social_links;
+        &:hover {
+            background:$twitter;
+        }
+    }
+    &.linkedin {
+        background:$twitter;
+        @include social_links;
+        &:hover {
+            background:$twitter;
+        }
+    }
+    &.github {
+        background:$github;
+        @include social_links;
+        &:hover {
+            background:$github;
+        }
+    }
+    &.stackoverflow {
+        background:$stackoverflow;
+        @include social_links;
+        &:hover {
+            background:$stackoverflow;
+        }
+    }
 }
 
 

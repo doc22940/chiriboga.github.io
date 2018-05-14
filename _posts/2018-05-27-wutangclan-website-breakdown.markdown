@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2017-12-27 15:10:47 -0500
-categories: jekyll
+title:  "WuTang Clan Website Breakdown"
+date:   2018-05-13 15:10:47 -0500
+comments: false
+categories: brands
 ---
 
 
