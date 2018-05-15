@@ -27,10 +27,10 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
+
             {{ content }}
 
 
-            {% if post.comments == true %}
             <div id="disqus_thread"></div>
             <script>
             /**
@@ -53,7 +53,28 @@
             <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
             <!-- <script id="dsq-count-scr" src="//EXAMPLE.disqus.com/count.js" async></script>
             Append #disqus_thread to the href attribute in your links. This will tell Disqus which links to look up and return the comment count. For example: <a href="http://foo.com/bar.html#disqus_thread">Link</a> -->
-            {% endif %} 
+
+
+
+            <script>
+            document.body.onkeyup = function(e){
+            if (e.keyCode == '37') { window.location = '{{page.previous.url}}'; }
+            if (e.keyCode == '39') { window.location = '{{page.next.url}}'; }
+            };
+            </script>
+            <hr/>
+            <nav aria-label="...">
+              <ul class="pager">
+                {% if page.previous.url %}
+                    <li class="previous"><a href="{{page.previous.url}}"><span aria-hidden="true">&larr;</span> Previous</a></li>
+                {% endif %}
+                {% if page.next.url %}
+                    <li class="next"><a href="{{page.next.url}}">Next <span aria-hidden="true">&rarr;</span></a></li>
+                {% endif %}
+              </ul>
+            </nav>
+
+
           </div>
         </div>
       </div>
