@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Some Cool SASS Mixins and more"
+title:  "Cool SASS Margin and Padding Mixin"
 date:   2018-05-14 15:10:47 -0500
 comments: false
 categories: development
