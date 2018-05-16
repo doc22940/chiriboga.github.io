@@ -45,7 +45,7 @@ description: "Richard Chiriboga is a Technical Manager, Wordpress and Front-End 
   <div class="container">
     <div class="row">
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <h2><a href="/blogs/">Latest Blogs</a></h2>
+        <h2><a href="/blog/">Latest Blogs</a></h2>
       </div>
     </div>
     <div class="row">
