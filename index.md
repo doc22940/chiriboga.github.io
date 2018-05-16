@@ -41,7 +41,27 @@ description: "Richard Chiriboga is a Technical Manager, Wordpress and Front-End 
 
 {% include case-study-featured.html %}
 
-
+<section class="bt">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <h2><a href="/blogs/">Latest Blogs</a></h2>
+      </div>
+    </div>
+    <div class="row">
+      {% for post in site.posts limit:3 %}
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <article class="well well-sm">
+            <p><a href="{{ site.baseurl }}{{ post.url }}"><strong>{{ post.title }}</strong></a></p>
+            <div class="entry">
+              <p><strong>Published:</strong> {{ post.date | date: '%B %d, %Y'}}<br/><strong>Category:</strong> {{ post.categories }}</p>
+            </div>
+          </article>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
 
 <section class="bt">
   <div class="container">
