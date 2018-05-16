@@ -51,12 +51,14 @@ description: "Richard Chiriboga is a Technical Manager, Wordpress and Front-End 
     <div class="row">
       {% for post in site.posts limit:3 %}
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-          <article class="well well-sm">
-            <p><a href="{{ site.baseurl }}{{ post.url }}"><strong>{{ post.title }}</strong></a></p>
-            <div class="entry">
-              <p><strong>Published:</strong> {{ post.date | date: '%B %d, %Y'}}<br/><strong>Category:</strong> {{ post.categories }}</p>
-            </div>
-          </article>
+          <div class="blog-box">
+            <a href="{{ site.baseurl }}{{ post.url }}" class="well well-sm {{ post.categories }}">
+              <p><strong>{{ post.title }}</strong></p>
+              <div class="entry">
+                <p><strong>Published:</strong> {{ post.date | date: '%B %d, %Y'}}<br/><strong>Category:</strong> {{ post.categories }}</p>
+              </div>
+            </a>
+          </div>
         </div>
       {% endfor %}
     </div>

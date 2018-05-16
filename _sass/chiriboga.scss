@@ -419,3 +419,46 @@ h2 {
 .featured-blog-img{
     margin-bottom: 30px;
 }
+
+
+
+.blog-box{
+    display: table;
+    width: 100%;
+    .development {
+        width: 100%;
+        height: 100%;
+        display: table-cell;
+        vertical-align: middle;
+        background: $stackoverflow;
+        border: darken($stackoverflow,15%);
+        color: #fff;
+
+        &:hover{
+            text-decoration: none;
+            background: darken($stackoverflow,15%);
+            border: $stackoverflow
+        }
+    }
+    .brands {
+        width: 100%;
+        height: 100%;
+        display: table-cell;
+        vertical-align: middle;
+        background: $twitter;
+        border: darken($twitter,15%);
+        color: #fff;
+
+        &:hover{
+            text-decoration: none;
+            background: darken($twitter,15%);
+            border: $twitter
+        }
+    }
+}
+
+
+
+
+
+
