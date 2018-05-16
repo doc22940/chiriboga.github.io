@@ -53,7 +53,7 @@ description: "Richard Chiriboga is a Technical Manager, Wordpress and Front-End 
     <div class="row">
       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
         <div class="media">
-          <div class="media-left">
+          <div class="media-left hidden-xs">
             <a href="https://github.com/chiriboga/company-email-signature"><i class="fa fa-envelope fa-6" aria-hidden="true"></i></a>
           </div>
           <div class="media-body">
@@ -63,7 +63,7 @@ description: "Richard Chiriboga is a Technical Manager, Wordpress and Front-End 
       </div>
       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
         <div class="media">
-          <div class="media-left">
+          <div class="media-left hidden-xs">
             <a href="https://github.com/chiriboga/top-participants"><i class="fa fa-wordpress fa-6" aria-hidden="true"></i></a>
           </div>
           <div class="media-body">
@@ -73,7 +73,7 @@ description: "Richard Chiriboga is a Technical Manager, Wordpress and Front-End 
       </div>
       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
         <div class="media">
-          <div class="media-left">
+          <div class="media-left hidden-xs">
             <a href="https://github.com/chiriboga/classy-org-api-v2"><i class="fa fa-github fa-6" aria-hidden="true"></i></a>
           </div>
           <div class="media-body">

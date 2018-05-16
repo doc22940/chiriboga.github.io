@@ -4,9 +4,11 @@ title:  "Cool SASS Margin and Padding Mixin"
 date:   2018-05-14 15:10:47 -0500
 comments: false
 categories: development
+mainpic: /img/logo-sass.png
 ---
 <img src="/img/logo-sass.png" class="img-responsive center-block featured-blog-img" />
 
+# {{ page.title }}
 
 So I have recently really gotten into SASS and how powerful it is. I mean I have used it before but nothing like I have in the last couple of weeks. Real world examples are always the best; Especially when you have a more experienced developer helping. 
 
