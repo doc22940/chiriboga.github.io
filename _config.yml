@@ -25,6 +25,10 @@ github_username:  chiriboga
 timezone: America/New_York
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  
 theme: 
 plugins:
   - jekyll-feed
@@ -45,6 +49,12 @@ sass:
   sass_dir: _sass
   style: compressed
 
+# Permalink Configuration
+permalink: /blog/:year/:month/:title/
+category_dir: "blog"
+category_layout: "index.html"
+# Directory used by the data_to_pages plugin.
+tag_dir: 'blog/category'
 
 
 # Collections

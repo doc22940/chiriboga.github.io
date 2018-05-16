@@ -53,9 +53,9 @@ description: "Richard Chiriboga is a Technical Manager, Wordpress and Front-End 
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
           <div class="blog-box">
             <a href="{{ site.baseurl }}{{ post.url }}" class="well well-sm {{ post.categories }}">
-              <p><strong>{{ post.title }}</strong></p>
+              <h4>{{ post.title }}</h4>
               <div class="entry">
-                <p><strong>Published:</strong> {{ post.date | date: '%B %d, %Y'}}<br/><strong>Category:</strong> {{ post.categories }}</p>
+                <p>Published: {{ post.date | date: '%B %d, %Y'}}<br/> Category: {{ post.categories }}</p>
               </div>
             </a>
           </div>

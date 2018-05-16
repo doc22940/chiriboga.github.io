@@ -1,4 +1,74 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-05-16T12:51:28-04:00</updated><id>http://localhost:4000/</id><title type="html">Richard Chiriboga</title><subtitle>Driven and collaborative Technical Manager with more than 20-years of experience in web development  and management, across non-profit, boutique agency and global company environments.</subtitle><entry><title type="html">Cool SASS Margin and Padding Mixin</title><link href="http://localhost:4000/development/2018/05/14/cool-sass-margin-padding-mixin.html" rel="alternate" type="text/html" title="Cool SASS Margin and Padding Mixin" /><published>2018-05-14T16:10:47-04:00</published><updated>2018-05-14T16:10:47-04:00</updated><id>http://localhost:4000/development/2018/05/14/cool-sass-margin-padding-mixin</id><content type="html" xml:base="http://localhost:4000/development/2018/05/14/cool-sass-margin-padding-mixin.html">&lt;p&gt;&lt;img src=&quot;/img/logo-sass.png&quot; class=&quot;img-responsive center-block featured-blog-img&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-05-16T18:02:05-04:00</updated><id>http://localhost:4000/</id><title type="html">Richard Chiriboga</title><subtitle>Driven and collaborative Technical Manager with more than 20-years of experience in web development  and management, across non-profit, boutique agency and global company environments.</subtitle><entry><title type="html">Luminate Online Top Participants WordPress Plugin</title><link href="http://localhost:4000/blog/2018/05/top-participants/" rel="alternate" type="text/html" title="Luminate Online Top Participants WordPress Plugin" /><published>2018-05-16T12:00:00-04:00</published><updated>2018-05-16T12:00:00-04:00</updated><id>http://localhost:4000/blog/2018/05/top-participants</id><content type="html" xml:base="http://localhost:4000/blog/2018/05/top-participants/">&lt;p&gt;&lt;img src=&quot;/img/blog/top-participants.jpg&quot; class=&quot;img-responsive center-block featured-blog-img&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;luminate-online-top-participants-wordpress-plugin&quot;&gt;Luminate Online Top Participants WordPress Plugin&lt;/h1&gt;
+&lt;p&gt;A Wordpress Plugin for showing top participants, teams and groups from the Luminate API.  For information on thhe plugin or on how to lease the plugin for your website &lt;a href=&quot;mailto://richardchiriboga@gmail.com&quot;&gt;contact me&lt;/a&gt; today.&lt;/p&gt;
+
+&lt;h2 id=&quot;description&quot;&gt;Description&lt;/h2&gt;
+&lt;p&gt;Finally an easy way to show your Blackbaud Luminate Online Top Participants information on your wordpress website.  You can add your top participants, teams and custom participant types using shortcodes. Plugin uses Luminate Online’s API to safely grab that information and give you the power to show it as you wish!&lt;/p&gt;
+
+&lt;h2 id=&quot;example-usage&quot;&gt;Example Usage&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;[top_participants 
+	type=&quot;XXXX&quot; 
+	output=&quot;XXXX&quot; 
+	class=&quot;XXXX&quot; 
+	event_id=&quot;XXXX&quot; 
+	limit=&quot;XXXX&quot; 
+	title=&quot;XXXX&quot; 
+	filter_text=&quot;XXXX&quot;]&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;default-arguments&quot;&gt;Default Arguments&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;table&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;type&lt;/strong&gt; = participants&lt;/td&gt;
+          &lt;td&gt;teams&lt;/td&gt;
+          &lt;td&gt;crew&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;table&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;output&lt;/strong&gt; = table&lt;/td&gt;
+          &lt;td&gt;list&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;class&lt;/strong&gt; = “whatever you want it to be”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;id&lt;/strong&gt; = “whatever you want it to be&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;event_id&lt;/strong&gt; = fr_id&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;filter_text&lt;/strong&gt; = the “participant type” inside your Teamraiser for a particular event (ONLY FOR CREW)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;limit&lt;/strong&gt; = &amp;lt;10 (apparently their API ONLY gives you up to 10)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;title&lt;/strong&gt; = “whatever you want it to be and gets wrapped in an h2 with the class of “type”_header so IE: participants_header&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;installation&quot;&gt;Installation&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Download and unzip the most recent version of this plugin&lt;/li&gt;
+  &lt;li&gt;Upload the luminate-top-participants folder to /path-to-wordpress/wp-content/plugins/&lt;/li&gt;
+  &lt;li&gt;Login to your WP Admin panel, click Plugins, and activate “Luminate Top Participants”&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;frequently-asked-questions&quot;&gt;Frequently Asked Questions&lt;/h2&gt;
+&lt;dl&gt;
+  &lt;dt&gt;Do I need a Luminate Online account to run this?&lt;/dt&gt;
+  &lt;dd&gt;Yes. You need a working Luminate Online account since you will need to get vital information from the system.&lt;/dd&gt;
+
+  &lt;dt&gt;Can I grab the total amount of donations received?&lt;/dt&gt;
+  &lt;dd&gt;Currently it does not, but I will work on that.&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;h2 id=&quot;screenshots&quot;&gt;Screenshots&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Admin Settings within the WordPress Environment.&lt;/strong&gt;
+&lt;img src=&quot;/img/blog/top-participants-screenshot-1.png&quot; class=&quot;img-responsive center-block featured-blog-img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Sample Output from the Top Participants Plugin&lt;/strong&gt;
+&lt;img src=&quot;/img/blog/top-participants-output.jpg&quot; class=&quot;img-responsive center-block featured-blog-img&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Cool SASS Margin and Padding Mixin</title><link href="http://localhost:4000/blog/2018/05/cool-sass-margin-padding-mixin/" rel="alternate" type="text/html" title="Cool SASS Margin and Padding Mixin" /><published>2018-05-14T16:10:47-04:00</published><updated>2018-05-14T16:10:47-04:00</updated><id>http://localhost:4000/blog/2018/05/cool-sass-margin-padding-mixin</id><content type="html" xml:base="http://localhost:4000/blog/2018/05/cool-sass-margin-padding-mixin/">&lt;p&gt;&lt;img src=&quot;/img/logo-sass.png&quot; class=&quot;img-responsive center-block featured-blog-img&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;cool-sass-margin-and-padding-mixin&quot;&gt;Cool SASS Margin and Padding Mixin&lt;/h1&gt;
 
@@ -7,22 +77,22 @@
 &lt;h3 id=&quot;margin-and-padding&quot;&gt;Margin and Padding&lt;/h3&gt;
 &lt;p&gt;I have done this for as long as I can remember. I will do margin-top, margin-bottom, padding-top, padding-bottom and I usually do 5, 10, 15, 20, etc. This makes it so easy for me to do this.&lt;/p&gt;
 
-&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;sides&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&quot;b&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&quot;bottom&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&quot;t&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&quot;top&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;@each&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;prefix&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sides&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;property&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;prefix&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;''&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;''&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;@for&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;through&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;10&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nc&quot;&gt;.m&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$prefix&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;
-      &lt;span class=&quot;err&quot;&gt;&amp;amp;#{($i&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;5)&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;err&quot;&gt;margin#{$property&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;($i&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;5)&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;px&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+&lt;div class=&quot;language-scss highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$sides&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;b&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;bottom&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;t&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;top&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;@each&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$prefix&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$value&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$sides&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nv&quot;&gt;$property&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$prefix&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;''&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;''&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$value&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;@for&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;through&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;10&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nc&quot;&gt;.m&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$prefix&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$property&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
       &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
     &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-    &lt;span class=&quot;nc&quot;&gt;.p&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$prefix&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;
-      &lt;span class=&quot;err&quot;&gt;&amp;amp;#{($i&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;5)&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;err&quot;&gt;padding#{$property&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;($i&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;5)&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;px&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-      &lt;span class=&quot;err&quot;&gt;}&lt;/span&gt;
-    &lt;span class=&quot;err&quot;&gt;}&lt;/span&gt;
-  &lt;span class=&quot;err&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;nc&quot;&gt;.p&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$prefix&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;padding&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$property&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;And what you get is this: Note that each one would be rendered &lt;strong&gt;not&lt;/strong&gt; the “TO”&lt;/p&gt;
@@ -31,7 +101,11 @@
 &lt;span class=&quot;nc&quot;&gt;.mt0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;margin-top&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;TO&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.mt50&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;margin-top&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;50px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;span class=&quot;nc&quot;&gt;.pb0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;padding-bottom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;TO&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.pb50&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;padding-bottom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;50px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;span class=&quot;nc&quot;&gt;.pt0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;padding-top&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;TO&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.pt50&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;padding-top&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;50px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">The WuTang Clan Question</title><link href="http://localhost:4000/brands/2018/05/13/wutangclan-question.html" rel="alternate" type="text/html" title="The WuTang Clan Question" /><published>2018-05-13T16:10:47-04:00</published><updated>2018-05-13T16:10:47-04:00</updated><id>http://localhost:4000/brands/2018/05/13/wutangclan-question</id><content type="html" xml:base="http://localhost:4000/brands/2018/05/13/wutangclan-question.html">&lt;p&gt;&lt;img src=&quot;/img/logo-wutangclan.png&quot; class=&quot;img-responsive center-block featured-blog-img&quot; /&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;You can also check out the CodePen example below.&lt;/p&gt;
+&lt;p data-height=&quot;400&quot; data-theme-id=&quot;0&quot; data-slug-hash=&quot;gzBxvP&quot; data-default-tab=&quot;css,result&quot; data-user=&quot;chiriboga&quot; data-embed-version=&quot;2&quot; data-pen-title=&quot;Margins and Padding&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;https://codepen.io/chiriboga/pen/gzBxvP/&quot;&gt;Margins and Padding&lt;/a&gt; by Richard Chiriboga (&lt;a href=&quot;https://codepen.io/chiriboga&quot;&gt;@chiriboga&lt;/a&gt;) on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;https://static.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">The WuTang Clan Question</title><link href="http://localhost:4000/blog/2018/05/wutangclan-question/" rel="alternate" type="text/html" title="The WuTang Clan Question" /><published>2018-05-13T16:10:47-04:00</published><updated>2018-05-13T16:10:47-04:00</updated><id>http://localhost:4000/blog/2018/05/wutangclan-question</id><content type="html" xml:base="http://localhost:4000/blog/2018/05/wutangclan-question/">&lt;p&gt;&lt;img src=&quot;/img/logo-wutangclan.png&quot; class=&quot;img-responsive center-block featured-blog-img&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;the-wutang-clan-question&quot;&gt;The WuTang Clan Question&lt;/h1&gt;
 
