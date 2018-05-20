@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Driven and collaborative Technical Manager with more than 20-years of experience in web development 
   and management, across non-profit, boutique agency and global company environments.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://richardchiriboga.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://richardchiriboga.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: iamchiriboga
 github_username:  chiriboga
 timezone: America/New_York
