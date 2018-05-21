@@ -465,10 +465,27 @@ h2 {
             border: $twitter
         }
     }
+
+    @media only screen and (max-width: 786px) {
+        margin-bottom: 10px;
+
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }    
 }
 
 
+.posts {
 
+    @media only screen and (max-width: 786px) {
+        h1 {
+            font-size: 25px;
+        }
+
+    }
+
+}
 
 
 
