@@ -468,10 +468,6 @@ h2 {
 
     @media only screen and (max-width: 786px) {
         margin-bottom: 10px;
-
-        &:last-child{
-            margin-bottom: 0;
-        }
     }    
 }
 
@@ -480,7 +476,7 @@ h2 {
 
     @media only screen and (max-width: 786px) {
         h1 {
-            font-size: 25px;
+            font-size: 20px;
         }
 
     }
