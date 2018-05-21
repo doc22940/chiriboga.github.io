@@ -25,9 +25,7 @@ github_username:  chiriboga
 timezone: America/New_York
 # Build settings
 markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
+highlighter: rouge
   
 theme: 
 plugins:
