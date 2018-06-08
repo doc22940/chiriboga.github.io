@@ -65,48 +65,8 @@ description: "Richard Chiriboga is a Technical Manager, Wordpress and Front-End 
   </div>
 </section>
 
-<section class="bt">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <h2><a href="https://github.com/chiriboga">Github Repositories</a></h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-        <div class="media">
-          <div class="media-left hidden-xs">
-            <a href="https://github.com/chiriboga/company-email-signature"><i class="fa fa-envelope fa-6" aria-hidden="true"></i></a>
-          </div>
-          <div class="media-body">
-            <a href="https://github.com/chiriboga/company-email-signature"><strong>Company Email Signature</strong></a><br/>Used by a few major corporations. This system was built using Twitter Bootstrap and AngularJS. Hs multi-lingual capabilities and much more.
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-        <div class="media">
-          <div class="media-left hidden-xs">
-            <a href="https://github.com/chiriboga/top-participants"><i class="fa fa-wordpress fa-6" aria-hidden="true"></i></a>
-          </div>
-          <div class="media-body">
-            <a href="https://github.com/chiriboga/top-participants"><strong>Luminate Top-Participants Plugin</strong></a><br/>A premium Wordpress Plugin for showing top participants, teams and groups from the Luminate API.
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-        <div class="media">
-          <div class="media-left hidden-xs">
-            <a href="https://github.com/chiriboga/classy-org-api-v2"><i class="fa fa-github fa-6" aria-hidden="true"></i></a>
-          </div>
-          <div class="media-body">
-            <a href="https://github.com/chiriboga/classy-org-api-v2"><strong>Classy.org API connection and use</strong></a><br/>After trying to find information from classy's documentation and searching the web, I was able to compile real world examples that I am hoping others can use for their projects
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
+{% include repositories.html %}
 
 
 {% include contactform.html %}
