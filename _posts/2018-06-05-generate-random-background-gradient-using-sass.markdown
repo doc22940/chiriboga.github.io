@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Generate Rendom Background Gradient using SASS"
+title:  "Generate Random Background Gradient using SASS"
 date:   2018-06-05 10:00:00 -0500
 comments: true
 categories: development
