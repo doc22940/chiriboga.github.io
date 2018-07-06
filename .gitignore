@@ -1,0 +1,9 @@
+_site/assets/
+.sass-cache/
+.git
+.jekyll-cache/
+.jekyll-metadata
+.bundle
+Gemfile
+#Gemfile.lock
+node_modules
