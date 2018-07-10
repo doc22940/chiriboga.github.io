@@ -1,3 +1,4 @@
+{% if page.date %} {% assign date_json = page.date %} {% else %} {% assign date_json = site.time | date: '%Y-%m-%d' %} {% endif %}
 <script type="application/ld+json">
     {
         "@context": "http://schema.org",
@@ -26,9 +27,9 @@
             }
         },
         "url": "{{ page.url | absolute_url }}",
-        "datePublished": "{{page.date}}",
-        "dateCreated": "{{page.date}}",
-        "dateModified": "{{page.date}}",
+        "datePublished": "{{date_json}}",
+        "dateCreated": "{{date_json}}",
+        "dateModified": "{{date_json}}",
         "description": "{{ page.excerpt | xml_escape }}",
         "articleBody": "{{ content | xml_escape }}",
         "author": {
