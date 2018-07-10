@@ -4,7 +4,7 @@ title:  "Luminate Online Top Participants WordPress Plugin"
 date:   2018-05-16 11:00:00 -0500
 comments: true
 categories: development
-mainpic: /img/blog/top-participants.jpg
+shareimage: 'https://richardchiriboga.com/img/blog/top-participants.jpg'
 ---
 <img src="/img/blog/top-participants.jpg" class="img-responsive center-block featured-blog-img" />
 

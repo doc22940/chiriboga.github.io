@@ -4,8 +4,9 @@ title:  "The WuTang Clan Question"
 date:   2018-05-13 15:10:47 -0500
 comments: true
 categories: brands
+shareimage: "https://richardchiriboga.com/img/logo-wutangclan.png"
 ---
-<img src="/img/logo-wutangclan.png" class="img-responsive center-block featured-blog-img" />
+<img src="/img/logo-wutangclan.png" class="img-responsive center-block featured-blog-img">
 
 # {{ page.title }}
 

@@ -4,7 +4,7 @@ title:  "Cool SASS Margin and Padding Mixin"
 date:   2018-05-14 15:10:47 -0500
 comments: false
 categories: development
-mainpic: /img/logo-sass.png
+shareimage: 'https://richardchiriboga.com/img/logo-sass.png'
 ---
 <img src="/img/logo-sass.png" class="img-responsive center-block featured-blog-img" />
 

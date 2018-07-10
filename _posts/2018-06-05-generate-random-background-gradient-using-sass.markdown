@@ -4,6 +4,7 @@ title:  "Generate Random Background Gradient using SASS"
 date:   2018-06-05 10:00:00 -0500
 comments: true
 categories: development
+shareimage: 'https://richardchiriboga.com/img/background-gradient.png'
 ---
 <img src="/img/background-gradient.png" class="img-responsive center-block featured-blog-img" />
 
