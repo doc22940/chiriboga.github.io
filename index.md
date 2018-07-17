@@ -4,11 +4,11 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
 title: Richard Chiriboga
-description: "Richard Chiriboga is a Technical Manager, Wordpress and Front-End Developer based out of New York City."
+description: "Richard Chiriboga is a Web Project Manager, Wordpress and Front-End Developer based out of New York City."
 ---
 <div class="jumbotron">
   <div class="container text-center">
-    <h1>Hi, my name is Rich and I am a <span>Technical Project Manager</span> &amp; <span>Front-End Developer</span> living in New York City.</h1>
+    <h1>Hi, my name is Rich and I am a <span>Web Project Manager</span> &amp; <span>Front-End Developer</span> living in New York City.</h1>
   </div>
 </div>
 
