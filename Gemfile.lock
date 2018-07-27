@@ -273,7 +273,6 @@ DEPENDENCIES
   jekyll-paginate
   jekyll-sitemap
   jekyll-youtube
-  minima (~> 2.0)
   octopress-minify-html
   tzinfo-data
 
