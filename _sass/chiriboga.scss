@@ -1,30 +1,26 @@
-$primary-color-dark:   #0288D1;
-$primary-color:        #03A9F4;
-$primary-color-light:  #B3E5FC;
-$primary-color-text:   #FFFFFF;
-$accent-color:         #4CAF50;
-$primary-text-color:   #212121;
+$primary-color-dark: #0288D1;
+$primary-color: #03A9F4;
+$primary-color-light: #B3E5FC;
+$primary-color-text: #FFFFFF;
+$accent-color: #4CAF50;
+$primary-text-color: #212121;
 $secondary-text-color: #757575;
-$divider-color:        #BDBDBD;
-
+$divider-color: #BDBDBD;
 $blue: #337ab7;
-
 $main-color: #ec008c;
-
-$header-font: 'Muli', sans-serif;
-
+$header-font: 'Muli',
+sans-serif;
 $stackoverflow: #f48024;
 $twitter: #1da1f2;
 $linkedin: #007bb5;
 $github: #4078c0;
-
+$wordpress: #21759b;
 @mixin social_links {
     font-size: 20px;
     padding: 8px 16px;
     border-radius: 10px;
     color: #fff;
 }
-
 
 body {
     background-color: #f9f9f9;
@@ -93,15 +89,12 @@ body {
     // background-color: #fff;
     margin-bottom: 0;
     display: flex;
-
     .container {
         align-self: center;
-
         p {
             color: #9feaf9;
             font-family: $header-font;
         }
-
         h1 {
             font-family: $header-font;
             max-width: 70%;
@@ -115,44 +108,35 @@ body {
     }
 }
 
-
-
 @for $i from 1 through 6 {
     h#{7 - $i} {
         font-family: $header-font;
     }
 }
 
-
 section {
     padding-top: 50px;
     padding-bottom: 50px;
-
     &.resume {
         padding-top: 20px;
         padding-bottom: 20px;
-
         p {
-           margin-bottom: 0; 
+            margin-bottom: 0;
         }
     }
-
 }
 
-.projects{
-
+.projects {
     .row {
         margin-top: 20px;
     }
-    .row:first-of-type{
+    .row:first-of-type {
         margin-top: 0;
     }
-
     p {
         font-size: 14px;
-    }    
+    }
 }
-
 
 .lightgray {
     background-color: #fafbfc !important;
@@ -161,15 +145,12 @@ section {
     }
 }
 
-
-
 .darkgray {
     background-color: #343a40 !important;
     p {
         font-size: 14px;
     }
 }
-
 
 .fa-6 {
     font-size: 6em;
@@ -183,8 +164,6 @@ p {
     font-size: 16px;
     font-weight: normal;
 }
-
-
 
 .clear20 {
     height: 20px;
@@ -202,22 +181,17 @@ h2 {
 .subtron {
     border: 1px solid #e0e5e6;
     background-color: #f6f8f8;
-
-    &.white{
+    &.white {
         background-color: #fff;
         border: none;
     }
-
     ul {
         margin-bottom: 0;
     }
 }
 
-
-
 .bt {
     border-top: 1px solid #e0e5e6;
-
     .fa {
         color: #333;
     }
@@ -227,7 +201,6 @@ h2 {
     color: #fff;
 }
 
-
 #aboutme {
     img {
         max-width: 250px;
@@ -235,10 +208,7 @@ h2 {
     }
 }
 
-
-
-
-.mainbox{
+.mainbox {
     -webkit-clip-path: polygon(0 0%, 100% 0, 100% 85%, 0% 100%);
     clip-path: polygon(0 0%, 100% 0, 100% 85%, 0% 100%);
     background-color: #131313;
@@ -256,7 +226,6 @@ h2 {
     transform: translate(-50%, -50%);
 }
 
-
 .site-logo {
     width: 40px;
     height: 40px;
@@ -268,7 +237,6 @@ h2 {
     transform: rotate(0deg);
     transition: transform .4s ease-in-out;
     margin-top: 5px;
-
     .logo-text {
         position: absolute;
         top: 50%;
@@ -277,16 +245,14 @@ h2 {
         transition: transform .4s ease-in-out;
         font-weight: bold;
         font-size: 13px;
-        color:#fff;
+        color: #fff;
     }
-
-    &:hover{
+    &:hover {
         opacity: 1;
         transform: rotate(-90deg);
         transition: transform .4s ease-in-out;
         background-color: $blue;
-        border-color: #fff; 
-
+        border-color: #fff;
         .logo-text {
             transform: translate(-50%, -50%) rotate(90deg);
             transform-origin: center;
@@ -295,27 +261,25 @@ h2 {
             transform: rotate(-90deg);
             transform-origin: center center;
             transition: transform 0.5s ease-in-out;
-        }   
+        }
     }
-
-
 }
-
 
 .btn-rc {
     color: #fff;
     background-color: $blue;
     border-color: $blue;
-
-    &:hover, &:active {
+    &:hover,
+    &:active {
         background-color: $blue;
         border-color: $blue;
     }
 }
 
-
 @media only screen and (max-width: 786px) {
-    .site-logo {margin-left: 15px;}
+    .site-logo {
+        margin-left: 15px;
+    }
     .bio {
         text-align: center;
     }
@@ -340,19 +304,15 @@ h2 {
             }
         }
     }
-    .btn-rc{
+    .btn-rc {
         display: block;
     }
-
     .media {
         margin-bottom: 20px;
     }
-    
 }
 
-@media screen and (min-width: 768px) {
-
-}
+@media screen and (min-width: 768px) {}
 
 .posts {
     h1 {
@@ -362,81 +322,72 @@ h2 {
 
 .case-study {
     font-size: 20px;
-
     h2 {
         margin-top: 0;
     }
-
     p {
         font-size: 20px;
     }
-
     &.orange {
         background-color: orange;
         color: #fff;
     }
-
-    &.blue{
+    &.blue {
         background-color: $blue;
         color: #fff;
     }
 }
 
-
-
-
-
-
-.social a{
-
+.social a {
     &.twitter {
-        background:$twitter;
+        background: $twitter;
         @include social_links;
         &:hover {
-            background:$twitter;
+            background: $twitter;
         }
     }
     &.linkedin {
-        background:$twitter;
+        background: $twitter;
         @include social_links;
         &:hover {
-            background:$twitter;
+            background: $twitter;
         }
     }
     &.github {
-        background:$github;
+        background: $github;
         @include social_links;
         &:hover {
-            background:$github;
+            background: $github;
         }
     }
     &.stackoverflow {
-        background:$stackoverflow;
+        background: $stackoverflow;
         @include social_links;
         &:hover {
-            background:$stackoverflow;
+            background: $stackoverflow;
+        }
+    }
+    &.wordpress {
+        background: $wordpress;
+        @include social_links;
+        &:hover {
+            background: $wordpress;
         }
     }
 }
 
-
-
-.featured-blog-img{
+.featured-blog-img {
     margin-bottom: 30px;
 }
 
-
-
-.blog-box{
+.blog-box {
     display: table;
     width: 100%;
     min-height: 130px;
-
     p {
         margin-bottom: 0;
         font-style: italic;
     }
-
     h4 {
         margin-top: 0;
     }
@@ -446,12 +397,11 @@ h2 {
         display: table-cell;
         vertical-align: top;
         background: $stackoverflow;
-        border: darken($stackoverflow,15%);
+        border: darken($stackoverflow, 15%);
         color: #fff;
-
-        &:hover{
+        &:hover {
             text-decoration: none;
-            background: darken($stackoverflow,15%);
+            background: darken($stackoverflow, 15%);
             border: $stackoverflow
         }
     }
@@ -461,32 +411,23 @@ h2 {
         display: table-cell;
         vertical-align: top;
         background: $twitter;
-        border: darken($twitter,15%);
+        border: darken($twitter, 15%);
         color: #fff;
-
-        &:hover{
+        &:hover {
             text-decoration: none;
-            background: darken($twitter,15%);
+            background: darken($twitter, 15%);
             border: $twitter
         }
     }
-
     @media only screen and (max-width: 786px) {
         margin-bottom: 10px;
-    }    
+    }
 }
 
-
 .posts {
-
     @media only screen and (max-width: 786px) {
         h1 {
             font-size: 20px;
         }
-
     }
-
 }
-
-
-
