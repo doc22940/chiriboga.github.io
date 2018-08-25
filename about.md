@@ -31,6 +31,11 @@ description: "Read More about Me - Richard Chiriboga"
       </div>
       <div class="col-lg-7 col-md-8 col-sm-9 col-xs-12 bio">
           <p>Richard Chiriboga is a New York City native with vast experience in web development, demonstrated Latino marketing and social media expertise in a multi-lingual environment as evidenced through his leadership of CorrienteLatina.com; a website dedicated to covering everything from music, movies to travel, food and much more. His passion for music and technology put him in a great position to masterfully combine both and garner the exposure and engagement needed to create success.  Richard’s CorrienteLatina.com website recently won a 2016 Tecla Award for Best Latino News and Culture website at Hispanicize and sponsored by Telemundo. </p>
+          <ul class="list-inline badges">
+            <li class="col-sm-3"><img src='/img/badge_hubspot.png' class="img-responsive" /></li>
+            <li class="col-sm-3"><img src='/img/badge_google.png' class="img-responsive" /></li>
+            <li class="col-sm-3"><img src='/img/badge_csm.png' class="img-responsive" /></li>
+          </ul>
       </div>
     </div>
   </div>
