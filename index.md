@@ -33,6 +33,11 @@ description: "Richard Chiriboga is a Web Project Manager, Wordpress and Front-En
       <div class="col-lg-7 col-md-8 col-sm-9 col-xs-12 bio">
           <h2>About Me</h2>
           <p>Web Project Manager and front-end developer with extensive experience working across global corporate, non-profit and boutique agency environments. Expertise in leading website restructuring, development projects, corporate intranet builds and content management plans through the complete lifecycle. Known for being a trusted partner across  global matrixed organizations and having the ability to communicate complex information to both technical and non-technical users,  including information pertaining to change management, stakeholder engagement and governance. Hispanic marketing and social media expertise: Created award-winning website CorrienteLatina.com. Fluent in English, with intermediate Spanish fluency.</p>
+          <ul class="list-inline badges">
+            <li class="col-sm-3"><img src='/img/badge_hubspot.png' class="img-responsive" /></li>
+            <li class="col-sm-3"><img src='/img/badge_google.png' class="img-responsive" /></li>
+            <li class="col-sm-3"><img src='/img/badge_csm.png' class="img-responsive" /></li>
+          </ul>
       </div>
     </div>
   </div>
