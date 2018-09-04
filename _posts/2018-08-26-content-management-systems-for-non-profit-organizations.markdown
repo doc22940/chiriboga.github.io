@@ -5,6 +5,7 @@ date:   2018-08-26 10:30:00 -0500
 comments: true
 categories: brands
 shareimage: 'https://richardchiriboga.com/img/blog/cms-non-profits.jpg'
+contact: true
 ---
 <img src="/img/blog/cms-non-profits.jpg" class="img-responsive center-block featured-blog-img" />
 
@@ -33,21 +34,3 @@ For a team like this, WordPress, Drupal or Jekyll is a good choice. Drupal has b
 Outstanding! There's so many things you can accomplish as a non-profit from an IT perspective that smaller non-profit's may need some extra help with, but you still have to make a decision and consider who your audience is and who is posting the content. Some non-profits like to hand everything over to their web team and have them post everything. If this is the case, then any of the systems mentioned before would work for you. With a team like that though, I would at least venture into the possibility of a system like Jekyll. You have the flexibility to create a continuous deployment structure while having the confidence that the website is less vulnerable than other options. You can also start looking into the future to really push your non-profit into the NPTech world.  
 
 As with all Content Management Systems, you have your good and bad. I think you need to weigh your options and determine which one is right for your team. I am here to help a non-profit or even a small business trying to determine what CMS is right for them. Just shoot me a note using the form below.
-
-<form method="POST" action="https://formspree.io/richardchiriboga@gmail.com">
-  <input type="hidden" name="_subject" value="Website Contact Form"> 
-  <input name="_gotcha" style="display:none">
-  <div class="form-group"> 
-    <label for="FullName">Full name</label>
-    <input class="form-control" id="FullName" name="fullname" placeholder="Full Name" required="">
-  </div>
-  <div class="form-group"> 
-    <label for="email">Email address</label>
-    <input type="email" class="form-control" id="email" name="email" placeholder="Full Name" required="">
-  </div>
-  <div class="form-group">
-    <label for="email">Your Message</label>
-    <textarea class="form-control" name="message" placeholder="Your message" required=""></textarea>
-  </div>
-  <button type="submit" class="btn btn-rc">Send</button>
-</form>

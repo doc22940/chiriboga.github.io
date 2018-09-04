@@ -5,6 +5,7 @@ date:   2018-05-23 15:30:00 -0500
 comments: true
 categories: development
 shareimage: 'https://raw.githubusercontent.com/jekyll/brand/master/jekyll-logo-black-red-transparent.png'
+contact: false
 ---
 <img src="https://raw.githubusercontent.com/jekyll/brand/master/jekyll-logo-black-red-transparent.png" class="img-responsive center-block featured-blog-img" />
 

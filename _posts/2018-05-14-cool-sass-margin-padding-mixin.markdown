@@ -5,6 +5,7 @@ date:   2018-05-14 15:10:47 -0500
 comments: false
 categories: development
 shareimage: 'https://richardchiriboga.com/img/logo-sass.png'
+contact: true
 ---
 <img src="/img/logo-sass.png" class="img-responsive center-block featured-blog-img" />
 
@@ -47,3 +48,6 @@ And what you get is this: Note that each one would be rendered __not__ the "TO"
 You can also check out the CodePen example below.
 <p data-height="400" data-theme-id="0" data-slug-hash="gzBxvP" data-default-tab="css,result" data-user="chiriboga" data-embed-version="2" data-pen-title="Margins and Padding" class="codepen">See the Pen <a href="https://codepen.io/chiriboga/pen/gzBxvP/">Margins and Padding</a> by Richard Chiriboga (<a href="https://codepen.io/chiriboga">@chiriboga</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+
+Need some help with your SCSS? contact me using the form below:

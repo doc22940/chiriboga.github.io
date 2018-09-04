@@ -5,6 +5,7 @@ date:   2018-05-16 11:00:00 -0500
 comments: true
 categories: development
 shareimage: 'https://richardchiriboga.com/img/blog/top-participants.jpg'
+contact: false
 ---
 <img src="/img/blog/top-participants.jpg" class="img-responsive center-block featured-blog-img" />
 

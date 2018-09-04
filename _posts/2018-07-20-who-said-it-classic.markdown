@@ -5,6 +5,7 @@ date:   2018-07-20 10:30:00 -0500
 comments: true
 categories: brands
 shareimage: 'https://richardchiriboga.com/img/blog/corrientelatina-who-said-it-FT.png'
+contact: false
 ---
 <img src="/img/blog/corrientelatina-who-said-it-FT.png" class="img-responsive center-block featured-blog-img" />
 

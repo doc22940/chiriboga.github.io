@@ -5,6 +5,7 @@ date:   2018-07-05 15:10:47 -0500
 comments: true
 categories: brands
 shareimage: 'https://richardchiriboga.com/img/logo-wutangclan.png'
+contact: false
 ---
 <img src="/img/logo-wutangclan.png" class="img-responsive center-block featured-blog-img" />
 

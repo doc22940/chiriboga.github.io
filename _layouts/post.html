@@ -30,6 +30,10 @@
 
                     {{ content }}
 
+                    {% if page.contact %}
+                    {% include post-contact.html %}
+                    {% endif %}
+
 
                     <div id="disqus_thread"></div>
                     <script>

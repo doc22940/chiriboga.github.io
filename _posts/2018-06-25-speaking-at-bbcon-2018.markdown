@@ -5,6 +5,7 @@ date:   2018-06-25 15:30:00 -0500
 comments: true
 categories: brands
 shareimage: 'https://richardchiriboga.com/img/blog/bbcon2018.jpg'
+contact: false
 ---
 <img src="/img/blog/bbcon2018.jpg" class="img-responsive center-block featured-blog-img" />
 
