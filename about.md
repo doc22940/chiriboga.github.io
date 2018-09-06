@@ -45,6 +45,11 @@ description: "Read More about Me - Richard Chiriboga"
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
+        <h2>Guest Blog Posts</h2>
+        <p>I am continually striving to help push the web development culture forward in my own way. Especially in the NonProfit sector. Here are my Guest Blog Posts on different websites.</p>
+        <ul>
+          <li><a target="_blank" href="http://www.nptechforgood.com/2018/09/06/github-for-good-what-nonprofits-need-to-know/">GitHub for Good: What Nonprofits Need to Know</a></li>
+        </ul>
         <h2>Older Blog Posts</h2>
         <p>During the course of my career I did some web development writing for THAT Agency while I worked there. Here are some of my favorites. I had the honor to have some of my earlier jQuery code land on a few "Top 10" lists for various months.</p>
         <ul>
