@@ -6,6 +6,8 @@ comments: true
 categories: brands
 shareimage: 'https://richardchiriboga.com/img/blog/corrientelatina-who-said-it-FT.png'
 contact: false
+image: 'https://richardchiriboga.com/img/blog/corrientelatina-who-said-it-FT.png'
+excerpt: "Wrote a HTML, CSS, Javascript game based on Old-School rap lyrics called - Who Said It! "
 ---
 <img src="/img/blog/corrientelatina-who-said-it-FT.png" class="img-responsive center-block featured-blog-img" />
 

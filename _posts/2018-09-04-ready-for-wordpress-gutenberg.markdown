@@ -6,6 +6,8 @@ comments: true
 categories: brands
 shareimage: 'https://richardchiriboga.com/img/blog/wordpress-gutenberg.jpg'
 contact: true
+image: 'https://richardchiriboga.com/img/blog/wordpress-gutenberg.jpg'
+excerpt: "If you are asking yourself - What is Gutenberg? Chances are you are not ready. OK OK Ok. Well that's not 100% true, but if WordPress is going to make such a major change to their system, then you should know what it is and how the change may affect you."
 ---
 <img src="/img/blog/wordpress-gutenberg.jpg" class="img-responsive center-block featured-blog-img" />
 

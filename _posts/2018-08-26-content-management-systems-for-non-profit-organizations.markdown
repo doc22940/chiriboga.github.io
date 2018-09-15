@@ -6,6 +6,8 @@ comments: true
 categories: brands
 shareimage: 'https://richardchiriboga.com/img/blog/cms-non-profits.jpg'
 contact: true
+image: 'https://richardchiriboga.com/img/blog/cms-non-profits.jpg'
+excerpt: "As an advocate for Non-Profit Tech, I always find that people always ask me about Content Management Systems and which one I like the most. I don't think that's the right question when you are trying to find a content management system for your non-profit."
 ---
 <img src="/img/blog/cms-non-profits.jpg" class="img-responsive center-block featured-blog-img" />
 

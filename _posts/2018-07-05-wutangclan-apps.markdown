@@ -6,6 +6,8 @@ comments: true
 categories: brands
 shareimage: 'https://richardchiriboga.com/img/logo-wutangclan.png'
 contact: false
+image: 'https://richardchiriboga.com/img/logo-wutangclan.png'
+excerpt: "Aside from my on CorrienteLatina.com website, I do some really cool coding for the **WuTang Clan**. I have built some of the web "games" that many people have played on the web."
 ---
 <img src="/img/logo-wutangclan.png" class="img-responsive center-block featured-blog-img" />
 

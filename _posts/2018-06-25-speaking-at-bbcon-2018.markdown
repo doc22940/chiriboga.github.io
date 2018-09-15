@@ -6,6 +6,8 @@ comments: true
 categories: brands
 shareimage: 'https://richardchiriboga.com/img/blog/bbcon2018.jpg'
 contact: false
+image: 'https://richardchiriboga.com/img/blog/bbcon2018.jpg'
+excerpt: "Last Year one of my goals was to speak at the 2018 BBCON and I spoke it into reality."
 ---
 <img src="/img/blog/bbcon2018.jpg" class="img-responsive center-block featured-blog-img" />
 
