@@ -1,0 +1,20 @@
+{% assign is_type = include.type %}
+<div class="video-container mbed-responsive">
+  <div class="embed-responsive embed-responsive-16by9">
+	  {% if is_type == "youtube" %}
+  	  <iframe class='embed-responsive-item' type='text/html' width='640' height='390' src='https://www.youtube.com/embed/{{ include.video_id }}?version=3&#038;rel=1&#038;fs=1&#038;autohide=2&#038;showsearch=0&#038;showinfo=0&#038;iv_load_policy=1&#038;wmode=transparent' allowfullscreen='true' style='border:0;'></iframe>
+  	{% elsif is_type == "vimeo" %}
+  	  <iframe class='embed-responsive-item' class='embed-responsive-item' src="https://player.vimeo.com/video/{{ include.video_id }}" width="640" height="273" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  	{% elsif is_type == "custom" %}
+  	  <iframe class='embed-responsive-item' type='text/html' width='640' height='390' src='{{ include.video_id }}&#038;wmode=transparent' allowfullscreen='true' style='border:0;' allowscriptaccess="always" frameborder="0"></iframe>
+  	{% else %}
+  	  <iframe class='embed-responsive-item' type='text/html' width='640' height='390' src='https://www.youtube.com/embed/{{ include.video_id }}?version=3&#038;rel=1&#038;fs=1&#038;autohide=2&#038;showsearch=0&#038;showinfo=0&#038;iv_load_policy=1&#038;wmode=transparent' allowfullscreen='true' style='border:0;'></iframe>
+    {% endif %}
+  </div>
+  {% if include.headerText %}
+    <div class="caption">
+      <h4>{{ include.headerText }}</h4>
+      {% if include.caption %}<p>{{ include.caption }}</p>{% endif %}
+    </div>
+  {% endif %}
+</div>
