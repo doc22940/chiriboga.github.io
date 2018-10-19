@@ -3,7 +3,7 @@ layout: post
 title:  "Is Your Website Ready for WordPress Gutenberg"
 date:   2018-09-04 09:00:00 -0500
 comments: true
-categories: brands
+categories: information
 shareimage: 'https://richardchiriboga.com/img/blog/wordpress-gutenberg.jpg'
 contact: true
 image: 'https://richardchiriboga.com/img/blog/wordpress-gutenberg.jpg'

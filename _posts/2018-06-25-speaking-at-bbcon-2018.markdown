@@ -3,7 +3,7 @@ layout: post
 title:  "Headed to BBCon to Speak at My First Session"
 date:   2018-06-25 15:30:00 -0500
 comments: true
-categories: brands
+categories: presentation
 shareimage: 'https://richardchiriboga.com/img/blog/bbcon2018.jpg'
 contact: false
 image: 'https://richardchiriboga.com/img/blog/bbcon2018.jpg'

@@ -3,7 +3,7 @@ layout: post
 title:  "Recap: Speaking at Blackbaud's BBCon 2018 in Orlando"
 date:   2018-10-14 09:00:00 -0500
 comments: true
-categories: brands
+categories: presentation
 shareimage: 'https://richardchiriboga.com/img/blog/richard-chiriboga-speaking-bbcon2018.jpg'
 contact: true
 image: 'https://richardchiriboga.com/img/blog/richard-chiriboga-speaking-bbcon2018.jpg'

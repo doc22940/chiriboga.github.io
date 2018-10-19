@@ -3,7 +3,7 @@ layout: post
 title:  "Content Management Systems For Non-profit Organizations"
 date:   2018-08-26 10:30:00 -0500
 comments: true
-categories: brands
+categories: information
 shareimage: 'https://richardchiriboga.com/img/blog/cms-non-profits.jpg'
 contact: true
 image: 'https://richardchiriboga.com/img/blog/cms-non-profits.jpg'

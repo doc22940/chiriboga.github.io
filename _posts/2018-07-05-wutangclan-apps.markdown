@@ -3,7 +3,7 @@ layout: post
 title:  "I built some pretty cool Wutang Clan Web Apps"
 date:   2018-07-05 15:10:47 -0500
 comments: true
-categories: brands
+categories: development
 shareimage: 'https://richardchiriboga.com/img/logo-wutangclan.png'
 contact: false
 ---
