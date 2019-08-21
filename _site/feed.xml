@@ -1,54 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-03-28T20:41:16-04:00</updated><id>http://localhost:4000/</id><title type="html">Richard Chiriboga</title><subtitle>Web Project Manager and front-end developer with extensive experience working across global corporate, non-profit and boutique agency environments.</subtitle><entry><title type="html">Recap: Speaking at Blackbaud’s BBCon 2018 in Orlando</title><link href="http://localhost:4000/blog/2018/10/learning-more-less/" rel="alternate" type="text/html" title="Recap: Speaking at Blackbaud's BBCon 2018 in Orlando" /><published>2018-10-14T10:00:00-04:00</published><updated>2018-10-14T10:00:00-04:00</updated><id>http://localhost:4000/blog/2018/10/learning-more-less</id><content type="html" xml:base="http://localhost:4000/blog/2018/10/learning-more-less/">&lt;p&gt;&lt;img src=&quot;/img/blog/richard-chiriboga-speaking-bbcon2018.jpg&quot; class=&quot;img-responsive center-block featured-blog-img&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;recap-speaking-at-blackbauds-bbcon-2018-in-orlando&quot;&gt;Recap: Speaking at Blackbaud’s BBCon 2018 in Orlando&lt;/h1&gt;
-
-&lt;p&gt;If you read my post about &lt;a href=&quot;/blog/2018/06/speaking-at-bbcon-2018/&quot; title=&quot;heading to BBCon to speak&quot;&gt;heading to BBCon to speak&lt;/a&gt;, you know that this was a goal of mine since 2017 when I went to my first BBCon. It became a reality and in a session called “Strategies from the Best Blackbaud TeamRaiser that Never Launched.” Alongside Kari, and Mark from &lt;a href=&quot;http://cathexispartners.com&quot; title=&quot;Cathexis Partners&quot;&gt;Cathexis Partners&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;my-segment-from-the-session&quot;&gt;My Segment From The Session&lt;/h2&gt;
-
-&lt;div class=&quot;video-container mbed-responsive&quot;&gt;
-  &lt;div class=&quot;embed-responsive embed-responsive-16by9&quot;&gt;
-	  
-  	  &lt;iframe class=&quot;embed-responsive-item&quot; type=&quot;text/html&quot; width=&quot;640&quot; height=&quot;390&quot; src=&quot;https://www.youtube.com/embed/7GRdDbjF6ac?version=3&amp;#038;rel=1&amp;#038;fs=1&amp;#038;autohide=2&amp;#038;showsearch=0&amp;#038;showinfo=0&amp;#038;iv_load_policy=1&amp;#038;wmode=transparent&quot; allowfullscreen=&quot;true&quot; style=&quot;border:0;&quot;&gt;&lt;/iframe&gt;
-  	
-  &lt;/div&gt;
-  
-&lt;/div&gt;
-
-&lt;p&gt;Not sure if you guys could tell, but I was pretty nervous. All the notes I had written down when out the window and I decided to talk a bit more around the slides. I wanted to focus on &lt;a href=&quot;/blog/2018/09/digestible-content/&quot; title=&quot;digestible content&quot;&gt;digestible content&lt;/a&gt; and the great use I made from WordPress.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-rest-of-bbcon&quot;&gt;The Rest of BBCon&lt;/h2&gt;
-
-&lt;p&gt;During the two days I was in Orlando for BBCon, I was able to catch a few great sessions and learned quite a few things that I could add to my personal knowledge base. But what good is a recap without pitcutes right?&lt;/p&gt;
-
-&lt;h2 id=&quot;venue-images-from-bbcon-2018&quot;&gt;Venue Images from BBCon 2018&lt;/h2&gt;
-
-&lt;div class=&quot;row&quot;&gt;
-	&lt;div class=&quot;col-sm-12 col-md-3&quot; style=&quot;margin-bottom: 20px;&quot;&gt;&lt;img src=&quot;/img/blog/bbcon2018/bbcon1.jpg&quot; class=&quot;img-responsive center-block featured-blog-img&quot; /&gt;&lt;/div&gt;
-	&lt;div class=&quot;col-sm-12 col-md-3&quot; style=&quot;margin-bottom: 20px;&quot;&gt;&lt;img src=&quot;/img/blog/bbcon2018/bbcon2.jpg&quot; class=&quot;img-responsive center-block featured-blog-img&quot; /&gt;&lt;/div&gt;
-	&lt;div class=&quot;col-sm-12 col-md-3&quot; style=&quot;margin-bottom: 20px;&quot;&gt;&lt;img src=&quot;/img/blog/bbcon2018/bbcon3.jpg&quot; class=&quot;img-responsive center-block featured-blog-img&quot; /&gt;&lt;/div&gt;
-	&lt;div class=&quot;col-sm-12 col-md-3&quot; style=&quot;margin-bottom: 20px;&quot;&gt;&lt;img src=&quot;/img/blog/bbcon2018/bbcon4.jpg&quot; class=&quot;img-responsive center-block featured-blog-img&quot; /&gt;&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;food-images-from-bbcon-2018&quot;&gt;Food Images from BBCon 2018&lt;/h2&gt;
-&lt;div class=&quot;row&quot;&gt;
-	&lt;div class=&quot;col-sm-12 col-md-3&quot; style=&quot;margin-bottom: 20px;&quot;&gt;&lt;img src=&quot;/img/blog/bbcon2018/food1.jpg&quot; class=&quot;img-responsive center-block featured-blog-img&quot; /&gt;&lt;/div&gt;
-	&lt;div class=&quot;col-sm-12 col-md-3&quot; style=&quot;margin-bottom: 20px;&quot;&gt;&lt;img src=&quot;/img/blog/bbcon2018/food2.jpg&quot; class=&quot;img-responsive center-block featured-blog-img&quot; /&gt;&lt;/div&gt;
-	&lt;div class=&quot;col-sm-12 col-md-3&quot; style=&quot;margin-bottom: 20px;&quot;&gt;&lt;img src=&quot;/img/blog/bbcon2018/food3.jpg&quot; class=&quot;img-responsive center-block featured-blog-img&quot; /&gt;&lt;/div&gt;
-	&lt;div class=&quot;col-sm-12 col-md-3&quot; style=&quot;margin-bottom: 20px;&quot;&gt;&lt;img src=&quot;/img/blog/bbcon2018/food4.jpg&quot; class=&quot;img-responsive center-block featured-blog-img&quot; /&gt;&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;headshots-images-from-bbcon-2018&quot;&gt;Headshots Images from BBCon 2018&lt;/h2&gt;
-&lt;div class=&quot;row&quot;&gt;
-	&lt;div class=&quot;col-sm-12 col-md-3&quot; style=&quot;margin-bottom: 20px;&quot;&gt;&lt;img src=&quot;/img/blog/bbcon2018/headshot1.jpg&quot; class=&quot;img-responsive center-block featured-blog-img&quot; /&gt;&lt;/div&gt;
-	&lt;div class=&quot;col-sm-12 col-md-3&quot; style=&quot;margin-bottom: 20px;&quot;&gt;&lt;img src=&quot;/img/blog/bbcon2018/headshot2.jpg&quot; class=&quot;img-responsive center-block featured-blog-img&quot; /&gt;&lt;/div&gt;
-	&lt;div class=&quot;col-sm-12 col-md-3&quot; style=&quot;margin-bottom: 20px;&quot;&gt;&lt;img src=&quot;/img/blog/bbcon2018/headshot3.jpg&quot; class=&quot;img-responsive center-block featured-blog-img&quot; /&gt;&lt;/div&gt;
-	&lt;div class=&quot;col-sm-12 col-md-3&quot; style=&quot;margin-bottom: 20px;&quot;&gt;&lt;img src=&quot;/img/blog/bbcon2018/headshot4.jpg&quot; class=&quot;img-responsive center-block featured-blog-img&quot; /&gt;&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;If you would like me to speak on a panel or session please contact me using the form below
- 
- &lt;/p&gt;</content><author><name></name></author><summary type="html">After executing my first speaking engagement, I thought it was great that people were telling me how much they learned from my part.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://richardchiriboga.com/img/blog/richard-chiriboga-speaking-bbcon2018.jpg" /></entry><entry><title type="html">Recap: Speaking at Blackbaud’s BBCon 2018 in Orlando</title><link href="http://localhost:4000/blog/2018/10/recap-speaking-at-bbcon-2018/" rel="alternate" type="text/html" title="Recap: Speaking at Blackbaud's BBCon 2018 in Orlando" /><published>2018-10-14T10:00:00-04:00</published><updated>2018-10-14T10:00:00-04:00</updated><id>http://localhost:4000/blog/2018/10/recap-speaking-at-bbcon-2018</id><content type="html" xml:base="http://localhost:4000/blog/2018/10/recap-speaking-at-bbcon-2018/">&lt;p&gt;&lt;img src=&quot;/img/blog/richard-chiriboga-speaking-bbcon2018.jpg&quot; class=&quot;img-responsive center-block featured-blog-img&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-08-20T21:49:56-04:00</updated><id>http://localhost:4000/</id><title type="html">Richard Chiriboga</title><subtitle>Web Project Manager and front-end developer with extensive experience working across global corporate, non-profit and boutique agency environments.</subtitle><entry><title type="html">Recap: Speaking at Blackbaud’s BBCon 2018 in Orlando</title><link href="http://localhost:4000/blog/2018/10/recap-speaking-at-bbcon-2018/" rel="alternate" type="text/html" title="Recap: Speaking at Blackbaud's BBCon 2018 in Orlando" /><published>2018-10-14T10:00:00-04:00</published><updated>2018-10-14T10:00:00-04:00</updated><id>http://localhost:4000/blog/2018/10/recap-speaking-at-bbcon-2018</id><content type="html" xml:base="http://localhost:4000/blog/2018/10/recap-speaking-at-bbcon-2018/">&lt;p&gt;&lt;img src=&quot;/img/blog/richard-chiriboga-speaking-bbcon2018.jpg&quot; class=&quot;img-responsive center-block featured-blog-img&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;recap-speaking-at-blackbauds-bbcon-2018-in-orlando&quot;&gt;Recap: Speaking at Blackbaud’s BBCon 2018 in Orlando&lt;/h1&gt;
 
@@ -315,4 +265,74 @@ The Wu has always been about positivity in their music and away from it. So this
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://richardchiriboga.com&quot;&gt;richardchiriboga.com&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;[More websites using Jekyll] (https://github.com/jekyll/jekyll/wiki/Sites)&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Ever wonder what is outside of WordPress or Drupal? You should really take a look at Jekyll. This is a great static generator platform.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://raw.githubusercontent.com/jekyll/brand/master/jekyll-logo-black-red-transparent.png" /></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Ever wonder what is outside of WordPress or Drupal? You should really take a look at Jekyll. This is a great static generator platform.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://raw.githubusercontent.com/jekyll/brand/master/jekyll-logo-black-red-transparent.png" /></entry><entry><title type="html">Luminate Online Top Participants WordPress Plugin</title><link href="http://localhost:4000/blog/2018/05/top-participants/" rel="alternate" type="text/html" title="Luminate Online Top Participants WordPress Plugin" /><published>2018-05-16T12:00:00-04:00</published><updated>2018-05-16T12:00:00-04:00</updated><id>http://localhost:4000/blog/2018/05/top-participants</id><content type="html" xml:base="http://localhost:4000/blog/2018/05/top-participants/">&lt;p&gt;&lt;img src=&quot;/img/blog/top-participants.jpg&quot; class=&quot;img-responsive center-block featured-blog-img&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;luminate-online-top-participants-wordpress-plugin&quot;&gt;Luminate Online Top Participants WordPress Plugin&lt;/h1&gt;
+&lt;p&gt;A Wordpress Plugin for showing top participants, teams and groups from the Luminate API.  For information on thhe plugin or on how to lease the plugin for your website &lt;a href=&quot;mailto://richardchiriboga@gmail.com&quot;&gt;contact me&lt;/a&gt; today.&lt;/p&gt;
+
+&lt;h2 id=&quot;description&quot;&gt;Description&lt;/h2&gt;
+&lt;p&gt;Finally an easy way to show your Blackbaud Luminate Online Top Participants information on your wordpress website.  You can add your top participants, teams and custom participant types using shortcodes. Plugin uses Luminate Online’s API to safely grab that information and give you the power to show it as you wish!&lt;/p&gt;
+
+&lt;h2 id=&quot;example-usage&quot;&gt;Example Usage&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;[top_participants 
+	type=&quot;XXXX&quot; 
+	output=&quot;XXXX&quot; 
+	class=&quot;XXXX&quot; 
+	event_id=&quot;XXXX&quot; 
+	limit=&quot;XXXX&quot; 
+	title=&quot;XXXX&quot; 
+	filter_text=&quot;XXXX&quot;]&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;default-arguments&quot;&gt;Default Arguments&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;table&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;type&lt;/strong&gt; = participants&lt;/td&gt;
+          &lt;td&gt;teams&lt;/td&gt;
+          &lt;td&gt;crew&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;table&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;output&lt;/strong&gt; = table&lt;/td&gt;
+          &lt;td&gt;list&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;class&lt;/strong&gt; = “whatever you want it to be”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;id&lt;/strong&gt; = “whatever you want it to be&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;event_id&lt;/strong&gt; = fr_id&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;filter_text&lt;/strong&gt; = the “participant type” inside your Teamraiser for a particular event (ONLY FOR CREW)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;limit&lt;/strong&gt; = &amp;lt;10 (apparently their API ONLY gives you up to 10)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;title&lt;/strong&gt; = “whatever you want it to be and gets wrapped in an h2 with the class of “type”_header so IE: participants_header&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;installation&quot;&gt;Installation&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Download and unzip the most recent version of this plugin&lt;/li&gt;
+  &lt;li&gt;Upload the luminate-top-participants folder to /path-to-wordpress/wp-content/plugins/&lt;/li&gt;
+  &lt;li&gt;Login to your WP Admin panel, click Plugins, and activate “Luminate Top Participants”&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;frequently-asked-questions&quot;&gt;Frequently Asked Questions&lt;/h2&gt;
+&lt;dl&gt;
+  &lt;dt&gt;Do I need a Luminate Online account to run this?&lt;/dt&gt;
+  &lt;dd&gt;Yes. You need a working Luminate Online account since you will need to get vital information from the system.&lt;/dd&gt;
+
+  &lt;dt&gt;Can I grab the total amount of donations received?&lt;/dt&gt;
+  &lt;dd&gt;Currently it does not, but I will work on that.&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;h2 id=&quot;screenshots&quot;&gt;Screenshots&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Admin Settings within the WordPress Environment.&lt;/strong&gt;
+&lt;img src=&quot;/img/blog/top-participants-screenshot-1.png&quot; class=&quot;img-responsive center-block featured-blog-img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Sample Output from the Top Participants Plugin&lt;/strong&gt;
+&lt;img src=&quot;/img/blog/top-participants-output.jpg&quot; class=&quot;img-responsive center-block featured-blog-img&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">A Wordpress Plugin for showing top participants, teams and groups from the Luminate API. For information on thhe plugin or on how to lease the plugin for your website.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://richardchiriboga.com/img/blog/top-participants.jpg" /></entry></feed>
