@@ -37,6 +37,7 @@ description: "Richard Chiriboga is a Web Project Manager, Wordpress and Front-En
             <li class="col-sm-3"><img src='/img/badge_hubspot.png' class="img-responsive" /></li>
             <li class="col-sm-3"><img src='/img/badge_google.png' class="img-responsive" /></li>
             <li class="col-sm-3"><img src='/img/badge_csm.png' class="img-responsive" /></li>
+            <li class="col-sm-3"><img src='/img/iadas.png' class="img-responsive" /></li>
           </ul>
       </div>
     </div>
