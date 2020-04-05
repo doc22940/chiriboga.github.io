@@ -4,12 +4,12 @@ title:  "Cool SASS Margin and Padding Mixin"
 date:   2018-05-14 15:10:47 -0500
 comments: false
 categories: development
-shareimage: 'https://richardchiriboga.com/img/logo-sass.png'
+shareimage: '/img/blog/sass.png'
 contact: true
-image: 'https://richardchiriboga.com/img/logo-sass.png'
+image: '/img/blog/sass.png'
 excerpt: "Created some really cool SCSS patterns for your project. If you need something like this. Margin and Padding options in a loop"
 ---
-<img src="/img/logo-sass.png" class="img-fluid center-block featured-blog-img" />
+<img src="/img/blog/sass.png" class="img-fluid center-block featured-blog-img" />
 
 # {{ page.title }}
 

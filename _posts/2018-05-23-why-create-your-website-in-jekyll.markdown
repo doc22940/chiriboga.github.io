@@ -6,7 +6,7 @@ comments: true
 categories: development
 shareimage: 'https://raw.githubusercontent.com/jekyll/brand/master/jekyll-logo-black-red-transparent.png'
 contact: false
-image: 'https://raw.githubusercontent.com/jekyll/brand/master/jekyll-logo-black-red-transparent.png'
+image: '/img/blog/jekyll-ft.png'
 excerpt: "Ever wonder what is outside of WordPress or Drupal? You should really take a look at Jekyll. This is a great static generator platform."
 ---
 <img src="https://raw.githubusercontent.com/jekyll/brand/master/jekyll-logo-black-red-transparent.png" class="img-fluid center-block featured-blog-img" />

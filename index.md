@@ -11,20 +11,21 @@ description: "Richard Chiriboga is a Web Project Manager, Wordpress and Front-En
 {% include section-aboutme.html %}
 
 {% include case-study-featured.html %}
-
 <div class="overlap-container">
   <div class="container">
-      <div class="row">
+    <div class="row">
           <div class="col">
               <h3>Latest Blogs</h3>
           </div>
       </div>
-      <div class="row">
-        {% for post in site.posts limit:2 %}
-        <div class="col-lg-6">
-              <a href="{{ site.baseurl }}{{ post.url }}" class="card blog_card">
+      <div class="row row-eq-height">
+        {% for post in site.posts limit:3 %}
+        <div class="card blog_card m-1 p-0">
+              <a href="{{ site.baseurl }}{{ post.url }}">
                   <div class="card-body">
-                      <img src="{{post.image}}" class="img-fluid rounded" />
+                    {% if post.image %}
+                    <img src="{{post.image}}" class="img-fluid rounded" />
+                    {% endif %}
                       <h6 class="mt-2 font-weight-bold">{{ post.title }}</h6>
                       <!-- <p>Published: {{ post.date | date: '%B %d, %Y'}}<br/> Category: {{ post.categories }}</p> -->
                   </div>

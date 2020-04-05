@@ -7,10 +7,10 @@ permalink: /blog/
 ---
 <div class="overlap-container">
   <div class="container pt-4">
-      <div class="row">
+      <div class="row row-eq-height">
         {% for post in site.posts %}
-        <div class="col-lg-6">
-              <a href="{{ site.baseurl }}{{ post.url }}" class="card blog_card mb-4">
+        <div class="card blog_card m-1 p-0">
+              <a href="{{ site.baseurl }}{{ post.url }}">
                   <div class="card-body">
                     {% if post.image %}
                     <img src="{{post.image}}" class="img-fluid rounded" />

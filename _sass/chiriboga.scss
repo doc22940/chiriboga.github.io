@@ -113,6 +113,7 @@ ul.badges {
     // padding: 30px;
     box-shadow: 0px 0px 42px -17px rgba(112, 112, 112, 0.08);
     min-height: 160px;
+    max-width: 32.5333333%;
     h6 {
         color: $main-color;
     }
@@ -290,4 +291,15 @@ ul.badges {
     color: #777777;
     background-color: #fff;
     cursor: not-allowed;
+}
+
+
+/* equal heights */
+
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
 }
