@@ -3,7 +3,8 @@
 // @import 'components/jumbotron';
 // @import 'components/navigation';
 $main-color: #3a3973;
-$silver: #ebeff4;
+$secondary-color: #17a2b8;
+$section-color: #ebf4fa;
 $yellow: #fed403;
 $skyblue: rgb(135, 206, 235);
 $skyblue-dark: rgba($skyblue, 0.88);
@@ -115,4 +116,178 @@ ul.badges {
     h6 {
         color: $main-color;
     }
+}
+
+.social a.twitter {
+    background: #1da1f2;
+    font-size: 20px;
+    padding: 8px 16px;
+    border-radius: 10px;
+    color: #fff
+}
+
+.social a.twitter:hover {
+    background: #1da1f2
+}
+
+.social a.linkedin {
+    background: #1da1f2;
+    font-size: 20px;
+    padding: 8px 16px;
+    border-radius: 10px;
+    color: #fff
+}
+
+.social a.linkedin:hover {
+    background: #1da1f2
+}
+
+.social a.github {
+    background: #4078c0;
+    font-size: 20px;
+    padding: 8px 16px;
+    border-radius: 10px;
+    color: #fff
+}
+
+.social a.github:hover {
+    background: #4078c0
+}
+
+.social a.stackoverflow {
+    background: #f48024;
+    font-size: 20px;
+    padding: 8px 16px;
+    border-radius: 10px;
+    color: #fff
+}
+
+.social a.stackoverflow:hover {
+    background: #f48024
+}
+
+.social a.wordpress {
+    background: #21759b;
+    font-size: 20px;
+    padding: 8px 16px;
+    border-radius: 10px;
+    color: #fff
+}
+
+.social a.wordpress:hover {
+    background: #21759b
+}
+
+
+/* buttons */
+
+.btn-rc {
+    background-color: $main-color;
+    &:hover {
+        background-color: $main-color;
+    }
+}
+
+
+/* site logo */
+
+.site-logo {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: visible;
+    border: 2px solid #fff;
+    position: relative;
+    transform: rotate(0deg);
+    transition: transform .4s ease-in-out;
+    margin-top: 5px;
+    margin-right: 15px;
+}
+
+.site-logo .logo-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(0deg);
+    transition: transform .4s ease-in-out;
+    font-weight: bold;
+    font-size: 13px;
+    color: #fff
+}
+
+.site-logo:hover {
+    opacity: 1;
+    transform: rotate(-90deg);
+    transition: transform .4s ease-in-out;
+    background-color: $secondary-color;
+    border-color: #fff
+}
+
+.site-logo:hover .logo-text {
+    transform: translate(-50%, -50%) rotate(90deg);
+    transform-origin: center
+}
+
+.site-logo:hover #logo-stroke {
+    transform: rotate(-90deg);
+    transform-origin: center center;
+    transition: transform 0.5s ease-in-out
+}
+
+
+/* pager */
+
+.pager {
+    padding-left: 0;
+    margin: 20px 0;
+    list-style: none;
+    text-align: center;
+}
+
+.pager:before {
+    display: table;
+    content: " ";
+}
+
+.pager:after {
+    clear: both;
+}
+
+.pager li {
+    display: inline;
+}
+
+.pager li>a,
+.pager li>span {
+    display: inline-block;
+    padding: 5px 14px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+}
+
+.pager li>a:hover,
+.pager li>a:focus {
+    text-decoration: none;
+    background-color: #eeeeee;
+}
+
+.pager .next>a,
+.pager .next>span {
+    float: right;
+}
+
+.pager .previous>a,
+.pager .previous>span {
+    float: left;
+}
+
+.pager .disabled>a,
+.pager .disabled>a:hover,
+.pager .disabled>a:focus,
+.pager .disabled>span {
+    color: #777777;
+    background-color: #fff;
+    cursor: not-allowed;
 }

@@ -9,7 +9,7 @@ contact: true
 image: 'https://richardchiriboga.com/img/logo-sass.png'
 excerpt: "Created some really cool SCSS patterns for your project. If you need something like this. Margin and Padding options in a loop"
 ---
-<img src="/img/logo-sass.png" class="img-responsive center-block featured-blog-img" />
+<img src="/img/logo-sass.png" class="img-fluid center-block featured-blog-img" />
 
 # {{ page.title }}
 

@@ -2,10 +2,7 @@
 <html lang="en">
 
 <head>
-    {% include head.html %} 
-    {% include javascript.html %} 
-    {% include json-ld.html %}
-    {% feed_meta %}
+    {% include head.html %} {% include javascript.html %} {% include json-ld.html %} {% feed_meta %}
 </head>
 
 <body id="home" data-spy="scroll" data-target=".navbar-fixed-top" data-offset="50">
@@ -26,44 +23,11 @@
     {% include header.html %}
     <!-- [end] header -->
     <!-- [begin] content -->
-    <section id="blog">
-        <div class="container">
+    <div class="overlap-container">
+        <div class="container pt-4">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
-
-                    {{ content }}
-
-                    {% if page.contact %}
-                    {% include post-contact.html %}
-                    {% endif %}
-
-
-                    <div id="disqus_thread"></div>
-                    <script>
-                        /**
-                         *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-                         *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-
-                        // var pageURL = {{ site.url }}{{ post.url }};
-                        // var pageID  = {{ page.id }};
-                        var disqus_config = function() {
-                            this.page.url = '{{ site.url }}{{ post.url }}'; // Replace PAGE_URL with your page's canonical URL variable
-                            this.page.identifier = '{{ page.id }}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-                        };
-                        (function() { // DON'T EDIT BELOW THIS LINE
-                            var d = document,
-                                s = d.createElement('script');
-                            s.src = 'https://chiriboga.disqus.com/embed.js';
-                            s.setAttribute('data-timestamp', +new Date());
-                            (d.head || d.body).appendChild(s);
-                        })();
-                    </script>
-                    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-                    <!-- <script id="dsq-count-scr" src="//EXAMPLE.disqus.com/count.js" async></script>
-            Append #disqus_thread to the href attribute in your links. This will tell Disqus which links to look up and return the comment count. For example: <a href="http://foo.com/bar.html#disqus_thread">Link</a> -->
-
-
-
+                <div class="col-md-8 offset-md-2 col-sm-12">
+                    {{ content }} {% if page.contact %} {% include post-contact.html %} {% endif %}
                     <script>
                         document.body.onkeyup = function(e) {
                             if (e.keyCode == '37') {
@@ -89,7 +53,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
     <!-- [end] content -->
     <!-- [begin] footer -->
     {% include footer.html %}

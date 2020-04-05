@@ -9,7 +9,7 @@ contact: false
 image: "https://richardchiriboga.com/img/logo-wutangclan.png"
 excerpt: "I always get asked the 'The Wutang Clan?' question. So I decided to go ahead and answer the most common question."
 ---
-<img src="/img/logo-wutangclan.png" class="img-responsive center-block featured-blog-img">
+<img src="/img/logo-wutangclan.png" class="img-fluid center-block featured-blog-img">
 
 # {{ page.title }}
 

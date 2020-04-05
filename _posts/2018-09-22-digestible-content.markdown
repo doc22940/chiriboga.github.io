@@ -10,7 +10,7 @@ image: 'https://richardchiriboga.com/img/blog/digestible-content.jpg'
 excerpt: "Digestible content is a way to break your content into pieces making it easier to read and understand"
 ---
 
-<img src="/img/blog/digestible-content.jpg" class="img-responsive center-block featured-blog-img" />
+<img src="/img/blog/digestible-content.jpg" class="img-fluid center-block featured-blog-img" />
 
 # {{ page.title }}
 
