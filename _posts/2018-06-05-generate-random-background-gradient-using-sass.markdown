@@ -9,7 +9,7 @@ contact: false
 image: 'https://richardchiriboga.com/img/background-gradient.png'
 excerpt: "I thought it would be a cool idea to be able to create a mixin for adding gradient backgrounds to an element."
 ---
-<img src="/img/background-gradient.png" class="img-responsive center-block featured-blog-img" />
+<img src="/img/background-gradient.png" class="img-fluid center-block featured-blog-img" />
 
 # {{ page.title }}
 

@@ -9,7 +9,7 @@ contact: true
 image: 'https://richardchiriboga.com/img/blog/richard-chiriboga-speaking-bbcon2018.jpg'
 excerpt: "After executing my first speaking engagement, I thought it was great that people were telling me how much they learned from my part."
 ---
-<img src="/img/blog/richard-chiriboga-speaking-bbcon2018.jpg" class="img-responsive center-block featured-blog-img" />
+<img src="/img/blog/richard-chiriboga-speaking-bbcon2018.jpg" class="img-fluid center-block featured-blog-img" />
 
 # {{ page.title }}
 
@@ -28,26 +28,26 @@ During the two days I was in Orlando for BBCon, I was able to catch a few great 
 ## Venue Images from BBCon 2018
 
 <div class="row">
-	<div class="col-sm-12 col-md-3" style="margin-bottom: 20px;"><img src="/img/blog/bbcon2018/bbcon1.jpg" class="img-responsive center-block featured-blog-img" /></div>
-	<div class="col-sm-12 col-md-3" style="margin-bottom: 20px;"><img src="/img/blog/bbcon2018/bbcon2.jpg" class="img-responsive center-block featured-blog-img" /></div>
-	<div class="col-sm-12 col-md-3" style="margin-bottom: 20px;"><img src="/img/blog/bbcon2018/bbcon3.jpg" class="img-responsive center-block featured-blog-img" /></div>
-	<div class="col-sm-12 col-md-3" style="margin-bottom: 20px;"><img src="/img/blog/bbcon2018/bbcon4.jpg" class="img-responsive center-block featured-blog-img" /></div>
+	<div class="col-sm-12 col-md-3" style="margin-bottom: 20px;"><img src="/img/blog/bbcon2018/bbcon1.jpg" class="img-fluid center-block featured-blog-img" /></div>
+	<div class="col-sm-12 col-md-3" style="margin-bottom: 20px;"><img src="/img/blog/bbcon2018/bbcon2.jpg" class="img-fluid center-block featured-blog-img" /></div>
+	<div class="col-sm-12 col-md-3" style="margin-bottom: 20px;"><img src="/img/blog/bbcon2018/bbcon3.jpg" class="img-fluid center-block featured-blog-img" /></div>
+	<div class="col-sm-12 col-md-3" style="margin-bottom: 20px;"><img src="/img/blog/bbcon2018/bbcon4.jpg" class="img-fluid center-block featured-blog-img" /></div>
 </div>
 
 ## Food Images from BBCon 2018
 <div class="row">
-	<div class="col-sm-12 col-md-3" style="margin-bottom: 20px;"><img src="/img/blog/bbcon2018/food1.jpg" class="img-responsive center-block featured-blog-img" /></div>
-	<div class="col-sm-12 col-md-3" style="margin-bottom: 20px;"><img src="/img/blog/bbcon2018/food2.jpg" class="img-responsive center-block featured-blog-img" /></div>
-	<div class="col-sm-12 col-md-3" style="margin-bottom: 20px;"><img src="/img/blog/bbcon2018/food3.jpg" class="img-responsive center-block featured-blog-img" /></div>
-	<div class="col-sm-12 col-md-3" style="margin-bottom: 20px;"><img src="/img/blog/bbcon2018/food4.jpg" class="img-responsive center-block featured-blog-img" /></div>
+	<div class="col-sm-12 col-md-3" style="margin-bottom: 20px;"><img src="/img/blog/bbcon2018/food1.jpg" class="img-fluid center-block featured-blog-img" /></div>
+	<div class="col-sm-12 col-md-3" style="margin-bottom: 20px;"><img src="/img/blog/bbcon2018/food2.jpg" class="img-fluid center-block featured-blog-img" /></div>
+	<div class="col-sm-12 col-md-3" style="margin-bottom: 20px;"><img src="/img/blog/bbcon2018/food3.jpg" class="img-fluid center-block featured-blog-img" /></div>
+	<div class="col-sm-12 col-md-3" style="margin-bottom: 20px;"><img src="/img/blog/bbcon2018/food4.jpg" class="img-fluid center-block featured-blog-img" /></div>
 </div>
 
 ## Headshots Images from BBCon 2018
 <div class="row">
-	<div class="col-sm-12 col-md-3" style="margin-bottom: 20px;"><img src="/img/blog/bbcon2018/headshot1.jpg" class="img-responsive center-block featured-blog-img" /></div>
-	<div class="col-sm-12 col-md-3" style="margin-bottom: 20px;"><img src="/img/blog/bbcon2018/headshot2.jpg" class="img-responsive center-block featured-blog-img" /></div>
-	<div class="col-sm-12 col-md-3" style="margin-bottom: 20px;"><img src="/img/blog/bbcon2018/headshot3.jpg" class="img-responsive center-block featured-blog-img" /></div>
-	<div class="col-sm-12 col-md-3" style="margin-bottom: 20px;"><img src="/img/blog/bbcon2018/headshot4.jpg" class="img-responsive center-block featured-blog-img" /></div>
+	<div class="col-sm-12 col-md-3" style="margin-bottom: 20px;"><img src="/img/blog/bbcon2018/headshot1.jpg" class="img-fluid center-block featured-blog-img" /></div>
+	<div class="col-sm-12 col-md-3" style="margin-bottom: 20px;"><img src="/img/blog/bbcon2018/headshot2.jpg" class="img-fluid center-block featured-blog-img" /></div>
+	<div class="col-sm-12 col-md-3" style="margin-bottom: 20px;"><img src="/img/blog/bbcon2018/headshot3.jpg" class="img-fluid center-block featured-blog-img" /></div>
+	<div class="col-sm-12 col-md-3" style="margin-bottom: 20px;"><img src="/img/blog/bbcon2018/headshot4.jpg" class="img-fluid center-block featured-blog-img" /></div>
 </div>
 
 If you would like me to speak on a panel or session please contact me using the form below

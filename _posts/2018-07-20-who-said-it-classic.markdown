@@ -9,7 +9,7 @@ contact: false
 image: 'https://richardchiriboga.com/img/blog/corrientelatina-who-said-it-FT.png'
 excerpt: "Wrote a HTML, CSS, Javascript game based on Old-School rap lyrics called - Who Said It! "
 ---
-<img src="/img/blog/corrientelatina-who-said-it-FT.png" class="img-responsive center-block featured-blog-img" />
+<img src="/img/blog/corrientelatina-who-said-it-FT.png" class="img-fluid center-block featured-blog-img" />
 
 # {{ page.title }}
 
@@ -21,7 +21,7 @@ I think I wanted to see if I could and I think it came out pretty cool. Next I w
 ***
 
 ### [Who Said it? Classic HipHop Edition](https://www.corrientelatina.com/who-said-it/classic/){:target="_blank"}
-<img src="/img/blog/in-game-scene.png" class="img-responsive center-block featured-blog-img" />
+<img src="/img/blog/in-game-scene.png" class="img-fluid center-block featured-blog-img" />
 
 This is a scene from the game. You basically have 20 seconds to click on who you think rapped the lyrics. Let me know what you guys think in the comments. 
 ***
