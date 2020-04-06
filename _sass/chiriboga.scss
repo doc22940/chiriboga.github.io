@@ -113,9 +113,33 @@ ul.badges {
     // padding: 30px;
     box-shadow: 0px 0px 42px -17px rgba(112, 112, 112, 0.08);
     min-height: 160px;
-    max-width: 32.5333333%;
+    max-width: 100%;
     h6 {
         color: $main-color;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .blog_card {
+        // padding: 30px;
+        box-shadow: 0px 0px 42px -17px rgba(112, 112, 112, 0.08);
+        min-height: 160px;
+        max-width: 31.5333333%;
+        h6 {
+            color: $main-color;
+        }
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .blog_card {
+        // padding: 30px;
+        box-shadow: 0px 0px 42px -17px rgba(112, 112, 112, 0.08);
+        min-height: 160px;
+        max-width: 32.5333333%;
+        h6 {
+            color: $main-color;
+        }
     }
 }
 
